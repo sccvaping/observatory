@@ -1,0 +1,12 @@
+{
+  "schema_version": 4,
+  "scope": "vaping_specific_evidence_inventory_and_synthesis_readiness",
+  "literature": {"canonical_records":986,"quarantined_records":1317,"duplicates_collapsed":81,"topic_counts":{"aerosol_chemistry":10,"cardiovascular":103,"cessation":152,"exposure_biomarkers":33,"indoor_air":7,"respiratory":179,"secondhand_exposure":7,"thirdhand_residue":2,"ultrafine_particles":3,"youth":398}},
+  "evidence_cards":{"card_count":986,"study_design_counts":{"animal_study":7,"case_control":1,"case_report":15,"case_series":1,"commentary_or_editorial":30,"cross_sectional":65,"in_vitro":4,"modelling_study":1,"non_randomised_intervention":14,"post_publication_notice":7,"prospective_cohort":4,"qualitative_study":15,"randomised_controlled_trial":110,"study_protocol":38,"systematic_review_or_meta_analysis":40,"unknown":634}},
+  "review_readiness":{"record_count":986,"reviewed_record_count":0,"conclusion_sensitive_ready_record_count":0,"unknown_study_design":{"count":634,"percent":64.3},"interpretation":"Operational readiness only; no threshold establishes a health conclusion."},
+  "synthesis":{"question_count":6,"questions":[{"id":"cessation_nicotine_ecig_vs_nrt","candidate_cards":69,"effect_estimate_ready_cards":0},{"id":"respiratory_health","candidate_cards":99,"effect_estimate_ready_cards":0},{"id":"cardiovascular_health","candidate_cards":42,"effect_estimate_ready_cards":0},{"id":"youth_use","candidate_cards":208,"effect_estimate_ready_cards":0},{"id":"secondhand_exposure","candidate_cards":22,"effect_estimate_ready_cards":0},{"id":"thirdhand_residue","candidate_cards":2,"effect_estimate_ready_cards":0}]},
+  "clinical_trials":{"record_count":834,"trials_with_results":189,"trials_with_matched_evidence_cards":173,"result_reference_pmids":35,"result_pmids_matched_to_evidence_cards":22},
+  "official_prevalence":{"ons":{"status":"parsed","latest_year":2024,"estimate_count":1188,"latest_year_estimate_count":108},"ohid_youth":{"status":"parsed","record_count":96},"nhs_youth":{"status":"parsed","record_count":423,"survey_year":2023}},
+  "regulatory_context":{"milestone_count":8,"reviewed_at":"2026-08-16"},
+  "limitations":["Counts are not effect estimates and do not establish causation, safety, harm or certainty.","Automated study-design classification is provisional until human review.","Structured comparator, outcome, effect-estimate, risk-of-bias and funding fields are not yet complete enough for pooled quantitative synthesis."]
+}
