@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "project": "Vaping26",
+  "generated_at": "2026-09-04T21:09:22.345882+00:00",
+  "publication_level": "aggregate_and_audit_metadata_only",
+  "collectors": [
+    {"collector":"europe_pmc","evidence_role":"primary_bibliographic_discovery","status":"records_downloaded","records":1000},
+    {"collector":"pubmed_eutils","evidence_role":"primary_bibliographic_discovery","status":"records_downloaded","records":100},
+    {"collector":"crossref","evidence_role":"supplementary_bibliographic_metadata","status":"records_downloaded","records":100},
+    {"collector":"crossref_retraction_watch","evidence_role":"research_integrity_enrichment","status":"records_downloaded","records":66896},
+    {"collector":"clinical_trials","evidence_role":"trial_registry","status":"records_downloaded","records":834},
+    {"collector":"companies_house","evidence_role":"candidate_company_discovery","status":"records_downloaded","records":227},
+    {"collector":"mhra_ecig","evidence_role":"official_product_register","status":"records_downloaded","records":14},
+    {"collector":"ons","evidence_role":"official_statistics_resource","status":"records_downloaded","records":1},
+    {"collector":"nhs_england","evidence_role":"official_statistics_resource","status":"records_downloaded","records":1},
+    {"collector":"ohid_fingertips","evidence_role":"official_youth_and_regional_statistics","status":"records_downloaded","records":96},
+    {"collector":"newsapi_leads","evidence_role":"discovery_lead_only","status":"records_downloaded","records":24}
+  ],
+  "source_failures": [],
+  "source_coverage": {
+    "registered_sources": 43,
+    "implemented_sources": 14,
+    "attempted_sources": 11,
+    "successful_sources": 11,
+    "evidence_successful_sources": 10,
+    "discovery_successful_sources": 1,
+    "failed_attempts": 0,
+    "health_successful_sources": 5,
+    "no_silent_disappearance": true
+  },
+  "notice": "Publication excludes raw records, news lead content, retailer/product-level investigative findings and private matching procedures.",
+  "migration_note": "Copied unchanged from the final pre-migration public Vaping26 release. The legacy project field is retained for provenance."
+}
