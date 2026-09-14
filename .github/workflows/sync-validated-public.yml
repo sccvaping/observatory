@@ -1,0 +1,108 @@
+name: Sync validated SCC Vaping public data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 5 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-validated-public.yml"
+      - "SYNC_REQUEST"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scc-vaping-public-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout canonical Observatory
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          path: canonical
+
+      - name: Checkout verified transport relay
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: homegundredaroad/Vaping26
+          path: relay
+
+      - name: Verify relay publication manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          root = Path("relay")
+          manifest_path = root / "provenance" / "publication_manifest.json"
+          if not manifest_path.is_file():
+              raise SystemExit("relay publication manifest missing")
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          files = manifest.get("files")
+          if not isinstance(files, list) or not files:
+              raise SystemExit("relay publication manifest has no files")
+          allowed = ("data/public/", "evidence/", "environment/", "regulation/", "provenance/")
+          seen = set()
+          for item in files:
+              rel = item.get("path")
+              if not isinstance(rel, str) or not rel.startswith(allowed) or ".." in Path(rel).parts:
+                  raise SystemExit(f"unsafe relay manifest path: {rel!r}")
+              if rel in seen:
+                  raise SystemExit(f"duplicate relay manifest path: {rel}")
+              seen.add(rel)
+              path = root / rel
+              if not path.is_file():
+                  raise SystemExit(f"relay manifest file missing: {rel}")
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              if digest != item.get("sha256"):
+                  raise SystemExit(f"relay manifest hash mismatch: {rel}")
+              if path.stat().st_size != item.get("bytes"):
+                  raise SystemExit(f"relay manifest byte-size mismatch: {rel}")
+          print(f"Verified {len(files)} manifested relay files")
+          PY
+
+      - name: Replace only allowlisted generated outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p canonical/data/public canonical/evidence canonical/environment canonical/regulation canonical/provenance
+          find canonical/data/public canonical/evidence canonical/environment canonical/regulation canonical/provenance -maxdepth 1 -type f -name '*.json' -delete
+          cp -a relay/data/public/. canonical/data/public/
+          cp -a relay/evidence/. canonical/evidence/
+          cp -a relay/environment/. canonical/environment/
+          cp -a relay/regulation/. canonical/regulation/
+          cp -a relay/provenance/. canonical/provenance/
+          python canonical/scripts/validate_public.py
+
+      - name: Commit canonical validated publication
+        working-directory: canonical
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "SCC Vaping Canonical Publisher"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/public evidence environment regulation provenance
+          if git diff --cached --quiet; then
+            echo "Canonical Observatory already matches verified relay."
+            exit 0
+          fi
+          git commit -m "Sync validated SCC Vaping public data"
+          git push
+
+      - name: Verify canonical branch
+        working-directory: canonical
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          python scripts/validate_public.py
+          echo "Canonical SCC Vaping public data verified at $(git rev-parse HEAD)"
