@@ -1,12 +1,419 @@
 {
   "schema_version": 4,
   "scope": "vaping_specific_evidence_inventory_and_synthesis_readiness",
-  "literature": {"canonical_records":986,"quarantined_records":1317,"duplicates_collapsed":81,"topic_counts":{"aerosol_chemistry":10,"cardiovascular":103,"cessation":152,"exposure_biomarkers":33,"indoor_air":7,"respiratory":179,"secondhand_exposure":7,"thirdhand_residue":2,"ultrafine_particles":3,"youth":398}},
-  "evidence_cards":{"card_count":986,"study_design_counts":{"animal_study":7,"case_control":1,"case_report":15,"case_series":1,"commentary_or_editorial":30,"cross_sectional":65,"in_vitro":4,"modelling_study":1,"non_randomised_intervention":14,"post_publication_notice":7,"prospective_cohort":4,"qualitative_study":15,"randomised_controlled_trial":110,"study_protocol":38,"systematic_review_or_meta_analysis":40,"unknown":634}},
-  "review_readiness":{"record_count":986,"reviewed_record_count":0,"conclusion_sensitive_ready_record_count":0,"unknown_study_design":{"count":634,"percent":64.3},"interpretation":"Operational readiness only; no threshold establishes a health conclusion."},
-  "synthesis":{"question_count":6,"questions":[{"id":"cessation_nicotine_ecig_vs_nrt","candidate_cards":69,"effect_estimate_ready_cards":0},{"id":"respiratory_health","candidate_cards":99,"effect_estimate_ready_cards":0},{"id":"cardiovascular_health","candidate_cards":42,"effect_estimate_ready_cards":0},{"id":"youth_use","candidate_cards":208,"effect_estimate_ready_cards":0},{"id":"secondhand_exposure","candidate_cards":22,"effect_estimate_ready_cards":0},{"id":"thirdhand_residue","candidate_cards":2,"effect_estimate_ready_cards":0}]},
-  "clinical_trials":{"record_count":834,"trials_with_results":189,"trials_with_matched_evidence_cards":173,"result_reference_pmids":35,"result_pmids_matched_to_evidence_cards":22},
-  "official_prevalence":{"ons":{"status":"parsed","latest_year":2024,"estimate_count":1188,"latest_year_estimate_count":108},"ohid_youth":{"status":"parsed","record_count":96},"nhs_youth":{"status":"parsed","record_count":423,"survey_year":2023}},
-  "regulatory_context":{"milestone_count":8,"reviewed_at":"2026-08-16"},
-  "limitations":["Counts are not effect estimates and do not establish causation, safety, harm or certainty.","Automated study-design classification is provisional until human review.","Structured comparator, outcome, effect-estimate, risk-of-bias and funding fields are not yet complete enough for pooled quantitative synthesis."]
+  "literature": {
+    "source_records": {
+      "pubmed_eutils": 100,
+      "europe_pmc": 1000,
+      "crossref": 100
+    },
+    "input_records": 1200,
+    "canonical_records": 912,
+    "canonical_records_before_quality_gate": 1113,
+    "quarantined_records": 1387,
+    "quarantine_reason_counts": {
+      "cannabis_vaping_without_nicotine_or_ecig_context": 12,
+      "no_explicit_vaping_ecig_ends_or_nicotine_pouch_anchor": 1168,
+      "not_direct_vaping_nicotine_evidence": 1180,
+      "pre_modern_ecigarette_publication_year": 105,
+      "retraction_record_not_primary_evidence": 2,
+      "secondary_only_title_not_vaping_specific": 100
+    },
+    "duplicates_collapsed": 87,
+    "source_overlap": {
+      "clinicaltrials_pubmed_recovery": 1080,
+      "europe_pmc": 913,
+      "europe_pmc+pubmed_eutils": 83,
+      "pubmed_eutils": 16
+    },
+    "publication_year_counts": {
+      "unknown": 4,
+      "2027": 1,
+      "2026": 563,
+      "2025": 31,
+      "2024": 24,
+      "2023": 23,
+      "2022": 18,
+      "2021": 30,
+      "2020": 50,
+      "2019": 37,
+      "2018": 17,
+      "2017": 17,
+      "2016": 27,
+      "2015": 21,
+      "2014": 26,
+      "2013": 14,
+      "2012": 5,
+      "2011": 3,
+      "2010": 1
+    },
+    "publication_type_counts": {
+      "Journal Article": 832,
+      "research-article": 185,
+      "Research Support, Non-U.S. Gov't": 117,
+      "Research Support, N.I.H., Extramural": 106,
+      "Randomized Controlled Trial": 105,
+      "Review": 74,
+      "Preprint": 40,
+      "Research Support, U.S. Gov't, P.H.S.": 23,
+      "Letter": 21,
+      "review-article": 21,
+      "Comparative Study": 20,
+      "Clinical Trial Protocol": 20,
+      "Systematic Review": 18,
+      "Case Reports": 14,
+      "Multicenter Study": 11,
+      "brief-report": 10,
+      "Editorial": 10,
+      "Observational Study": 10,
+      "Meta-Analysis": 10,
+      "Clinical Trial": 9,
+      "case-report": 8,
+      "Comment": 6,
+      "Validation Study": 5,
+      "discussion": 5,
+      "Research Support, U.S. Gov't, Non-P.H.S.": 5,
+      "systematic-review": 4,
+      "Published Erratum": 4,
+      "Pragmatic Clinical Trial": 4,
+      "Abstract": 4,
+      "English Abstract": 3,
+      "Controlled Clinical Trial": 3,
+      "article-commentary": 2,
+      "Practice Guideline": 2,
+      "correction": 2,
+      "Clinical Trial, Phase II": 2,
+      "methods-article": 1,
+      "editorial": 1,
+      "Consensus Statement": 1,
+      "Scoping Review": 1,
+      "in-brief": 1,
+      "Clinical Trial, Phase IV": 1,
+      "Equivalence Trial": 1,
+      "Lecture": 1,
+      "Research Support, N.I.H., Intramural": 1,
+      "Evaluation Study": 1,
+      "Historical Article": 1,
+      "News": 1,
+      "Clinical Conference": 1
+    },
+    "topic_counts": {
+      "aerosol_chemistry": 9,
+      "cardiovascular": 104,
+      "cessation": 149,
+      "exposure_biomarkers": 30,
+      "indoor_air": 5,
+      "respiratory": 198,
+      "secondhand_exposure": 7,
+      "thirdhand_residue": 2,
+      "ultrafine_particles": 3,
+      "youth": 380
+    },
+    "topic_policy": "Auditable title/journal keyword tags are navigation aids only and are not evidence-strength or effect classifications.",
+    "relevance_policy": "Public evidence-card promotion requires an explicit vaping, e-cigarette, ENDS, e-liquid or nicotine-pouch anchor. Broad smoking/tobacco/health records and cannabis-only vaping records remain auditable in quarantine rather than being discarded.",
+    "trial_publication_recovery": {
+      "source": "NCBI PubMed ESummary exact PMID retrieval from ClinicalTrials.gov references",
+      "recovered_source_records": 1187,
+      "accepted_before_direct_relevance_gate": 1081,
+      "quality_quarantined": 106,
+      "policy": "Identifier recovery expands coverage only. Recovered publications still pass the ordinary quality and direct-vaping relevance gates and registry linkage does not establish outcome reporting completeness or reliability."
+    }
+  },
+  "evidence_cards": {
+    "card_count": 912,
+    "study_design_counts": {
+      "animal_study": 7,
+      "case_control": 1,
+      "case_report": 15,
+      "case_series": 1,
+      "commentary_or_editorial": 33,
+      "cross_sectional": 53,
+      "in_vitro": 4,
+      "modelling_study": 1,
+      "non_randomised_intervention": 14,
+      "post_publication_notice": 4,
+      "prospective_cohort": 4,
+      "qualitative_study": 15,
+      "randomised_controlled_trial": 110,
+      "study_protocol": 35,
+      "systematic_review_or_meta_analysis": 31,
+      "unknown": 584
+    },
+    "integrity_status_counts": {
+      "unknown": 912
+    },
+    "extraction_policy": "Metadata classification is automated and provisional. Integrity status remains unknown unless a collected integrity source or explicit bibliographic signal supplies a post-publication state. Effect estimates, comparators, confounding, funding and risk-of-bias fields require source-grounded extraction and review before synthesis."
+  },
+  "review_readiness": {
+    "schema_version": 1,
+    "generated_at": "2026-09-14T10:45:59.894299+00:00",
+    "record_count": 912,
+    "study_design_counts": {
+      "animal_study": 7,
+      "unknown": 584,
+      "case_report": 15,
+      "commentary_or_editorial": 33,
+      "qualitative_study": 15,
+      "cross_sectional": 53,
+      "study_protocol": 35,
+      "randomised_controlled_trial": 110,
+      "in_vitro": 4,
+      "systematic_review_or_meta_analysis": 31,
+      "modelling_study": 1,
+      "prospective_cohort": 4,
+      "case_control": 1,
+      "post_publication_notice": 4,
+      "non_randomised_intervention": 14,
+      "case_series": 1
+    },
+    "integrity_status_counts": {
+      "unknown": 912
+    },
+    "human_review_status_counts": {
+      "not_reviewed": 912
+    },
+    "synthesis_readiness_counts": {
+      "metadata_classified_requires_outcome_extraction": 912
+    },
+    "unknown_study_design": {
+      "count": 584,
+      "percent": 64.04
+    },
+    "unknown_integrity_status": {
+      "count": 912,
+      "percent": 100.0
+    },
+    "reviewed_record_count": 0,
+    "conclusion_sensitive_ready_record_count": 0,
+    "conclusion_field_presence": {
+      "population": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "smoking_history": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "dual_use": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "intervention_exposure": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "comparator": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "outcomes": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "effect_estimates": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "funding": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "conflicts_of_interest": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "risk_of_bias": {
+        "count": 0,
+        "percent": 0.0
+      }
+    },
+    "phase_gates": {
+      "external_method_review_candidate": true,
+      "conclusion_sensitive_synthesis_has_any_reviewed_ready_records": false,
+      "all_study_designs_resolved": false,
+      "all_integrity_states_resolved": false
+    },
+    "interpretation": "This is an operational readiness report, not an evidence-certainty rating. No threshold in this report establishes a health conclusion."
+  },
+  "synthesis": {
+    "question_count": 6,
+    "questions": [
+      {
+        "id": "cessation_nicotine_ecig_vs_nrt",
+        "title": "Nicotine e-cigarettes for sustained smoking cessation",
+        "candidate_cards": 66,
+        "effect_estimate_ready_cards": 0,
+        "synthesis_status": "awaiting_structured_outcome_extraction_and_review"
+      },
+      {
+        "id": "respiratory_health",
+        "title": "Respiratory health outcomes associated with vaping",
+        "candidate_cards": 98,
+        "effect_estimate_ready_cards": 0,
+        "synthesis_status": "awaiting_structured_outcome_extraction_and_review"
+      },
+      {
+        "id": "cardiovascular_health",
+        "title": "Cardiovascular outcomes associated with vaping",
+        "candidate_cards": 40,
+        "effect_estimate_ready_cards": 0,
+        "synthesis_status": "awaiting_structured_outcome_extraction_and_review"
+      },
+      {
+        "id": "youth_use",
+        "title": "Vaping among children and young people",
+        "candidate_cards": 189,
+        "effect_estimate_ready_cards": 0,
+        "synthesis_status": "awaiting_structured_outcome_extraction_and_review"
+      },
+      {
+        "id": "secondhand_exposure",
+        "title": "Second-hand vaping aerosol exposure",
+        "candidate_cards": 19,
+        "effect_estimate_ready_cards": 0,
+        "synthesis_status": "awaiting_structured_outcome_extraction_and_review"
+      },
+      {
+        "id": "thirdhand_residue",
+        "title": "Third-hand vaping residues and exposure",
+        "candidate_cards": 2,
+        "effect_estimate_ready_cards": 0,
+        "synthesis_status": "awaiting_structured_outcome_extraction_and_review"
+      }
+    ],
+    "governance": "No pooled effect or causal conclusion is produced until comparator, outcome, effect-estimate and risk-of-bias fields have been source-grounded and reviewed."
+  },
+  "clinical_trials": {
+    "record_count": 834,
+    "total_matches": 834,
+    "status_counts": {
+      "ACTIVE_NOT_RECRUITING": 29,
+      "COMPLETED": 494,
+      "ENROLLING_BY_INVITATION": 13,
+      "NOT_YET_RECRUITING": 52,
+      "RECRUITING": 132,
+      "SUSPENDED": 2,
+      "TERMINATED": 30,
+      "UNKNOWN": 56,
+      "WITHDRAWN": 26
+    },
+    "study_type_counts": {
+      "INTERVENTIONAL": 696,
+      "OBSERVATIONAL": 138
+    },
+    "trials_with_results": 189,
+    "trials_with_primary_outcomes": 834,
+    "trials_with_result_outcome_measures": 189,
+    "publication_pmids_linked": 1197,
+    "trials_with_matched_evidence_cards": 172,
+    "unique_pmids_matched_to_evidence_cards": 363,
+    "unique_referenced_pmids": 1197,
+    "unmatched_referenced_pmids": 834,
+    "reference_type_summary": {
+      "BACKGROUND": {
+        "unique_pmids": 927,
+        "matched_pmids": 210,
+        "unmatched_pmids": 717
+      },
+      "DERIVED": {
+        "unique_pmids": 248,
+        "matched_pmids": 142,
+        "unmatched_pmids": 106
+      },
+      "RESULT": {
+        "unique_pmids": 35,
+        "matched_pmids": 22,
+        "unmatched_pmids": 13
+      }
+    },
+    "result_reference_pmids": 35,
+    "result_pmids_matched_to_evidence_cards": 22,
+    "unmatched_result_pmids": 13,
+    "linkage_interpretation": "RESULT references are the appropriate headline publication-linkage metric. DERIVED references and BACKGROUND bibliography are retained for audit but are not counted as missing trial-result publications."
+  },
+  "official_prevalence_resources": [
+    {
+      "source_id": "ons",
+      "resource_title": "xlsx (93.9 KB)",
+      "page_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/ecigaretteuseinengland",
+      "resource_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/ecigaretteuseinengland/2024/ecigaretteuseinengland2024.xlsx",
+      "bytes": 96189,
+      "sha256": "cd8d4162d16201b0ff573702a0f0910aee793b1ecf07c48b643fe7028d1d96b0",
+      "interpretation_status": "resource_captured_for_statistical_parser"
+    },
+    {
+      "source_id": "nhs_england",
+      "resource_title": "Smoking, drinking and drug use among young people, England, 2023: Part 4 data tables - Electronic cigarette use",
+      "page_url": "https://digital.nhs.uk/data-and-information/publications/statistical/smoking-drinking-and-drug-use-among-young-people-in-england/2023/data-tables",
+      "resource_url": "https://files.digital.nhs.uk/17/54B245/sdd_2023_tab4.xlsx",
+      "bytes": 104683,
+      "sha256": "3cae36aa0c061ebec91fec62a3c6aaa62431bd6408548991818e06a6110f3264",
+      "interpretation_status": "resource_captured_for_statistical_parser"
+    }
+  ],
+  "official_prevalence": {
+    "ons": {
+      "status": "parsed",
+      "latest_year": 2024,
+      "estimate_count": 1188,
+      "latest_year_estimate_count": 108,
+      "interpretation": "Official ONS survey estimates with 95% confidence limits. Survey/question changes in 2018 and 2020 affect parts of the time series; the accompanying ONS notes and change statements must be retained."
+    },
+    "ohid_youth": {
+      "status": "parsed",
+      "record_count": 96,
+      "indicators": [
+        "Have ever used e-cigarettes, 15 year olds",
+        "Regular e-cigarette users, 15 year olds"
+      ],
+      "interpretation": "Official youth-vaping estimates from NHS England SDD and OHID are kept with survey/geography/demographic provenance. Percentages, unweighted bases and weighted bases must not be mixed across survey definitions or interpreted as causal health effects. NHS table schema changes fail closed for review."
+    },
+    "nhs_youth": {
+      "status": "parsed",
+      "record_count": 423,
+      "survey_year": 2023,
+      "tables_structured": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6"
+      ],
+      "indicators": [
+        "Current e-cigarette user",
+        "Current e-cigarettes users",
+        "Ever used e-cigarettes",
+        "Ex e-cigarette user",
+        "Never used e-cigarettes",
+        "Occasional e-cigarette user",
+        "Regular e-cigarette user",
+        "Tried using e-cigarettes"
+      ],
+      "release_check": {
+        "discovery_status": "checked_no_newer_release",
+        "freshness_status": "awaiting_scheduled_release",
+        "expected_next_survey_year": 2025,
+        "expected_publication_year": 2026,
+        "expected_publication_window_end": "2026-11-30"
+      },
+      "interpretation": "Official youth-vaping estimates from NHS England SDD and OHID are kept with survey/geography/demographic provenance. Percentages, unweighted bases and weighted bases must not be mixed across survey definitions or interpreted as causal health effects. NHS table schema changes fail closed for review."
+    }
+  },
+  "regulatory_context": {
+    "milestone_count": 8,
+    "reviewed_at": "2026-08-16",
+    "notice": "This is a research timeline, not legal advice. Effective requirements must be checked against current legislation and official guidance."
+  },
+  "environment_context": {
+    "status": "optional_background_control_only",
+    "interpretation": "General air-quality and satellite collectors are no longer part of the default vaping harvest. They may be enabled for a defined exposure study as background control data."
+  },
+  "limitations": [
+    "Counts are not effect estimates and do not establish causation, safety, harm or certainty.",
+    "Automated study-design classification is provisional until human review.",
+    "Structured comparator, outcome, effect-estimate, risk-of-bias and funding fields are not yet complete enough for pooled quantitative synthesis.",
+    "Recent-first literature surveillance plus identifier-based trial-publication recovery is not yet a complete historical systematic review; broader backfill remains a separate governed stage.",
+    "Registry BACKGROUND references are not missing trial-result publications and are excluded from the headline RESULT-publication linkage gap.",
+    "Official prevalence estimates must retain survey, geography, confidence-interval and comparability metadata."
+  ]
 }

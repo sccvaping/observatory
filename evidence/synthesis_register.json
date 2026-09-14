@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "question_count": 6,
+  "questions": [
+    {
+      "id": "cessation_nicotine_ecig_vs_nrt",
+      "title": "Nicotine e-cigarettes for sustained smoking cessation",
+      "population": "Adults who smoke and are attempting to quit",
+      "comparators": [
+        "nicotine replacement therapy",
+        "non-nicotine e-cigarettes",
+        "behavioural support or no support"
+      ],
+      "primary_outcomes": [
+        "sustained abstinence at 6 months or longer",
+        "serious adverse events"
+      ],
+      "preferred_designs": [
+        "systematic_review_or_meta_analysis",
+        "randomised_controlled_trial"
+      ],
+      "protocol_status": "question_framework_defined",
+      "candidate_cards": 66,
+      "result_bearing_candidate_cards": 60,
+      "excluded_non_result_cards": 6,
+      "excluded_non_result_design_counts": {
+        "study_protocol": 6
+      },
+      "design_counts": {
+        "commentary_or_editorial": 1,
+        "cross_sectional": 3,
+        "non_randomised_intervention": 1,
+        "randomised_controlled_trial": 25,
+        "study_protocol": 6,
+        "systematic_review_or_meta_analysis": 5,
+        "unknown": 25
+      },
+      "integrity_status_counts": {
+        "unknown": 66
+      },
+      "effect_estimate_ready_cards": 0,
+      "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
+      "notice": "Candidate count is a navigation/triage measure, not an effect estimate or certainty assessment. Protocols and post-publication notices are separately counted and excluded from result-bearing synthesis. Quantitative readiness also requires human review and a non-retracted integrity state."
+    },
+    {
+      "id": "respiratory_health",
+      "title": "Respiratory health outcomes associated with vaping",
+      "population": null,
+      "comparators": [
+        "never use",
+        "continued smoking",
+        "former smoking without vaping",
+        "dual use"
+      ],
+      "primary_outcomes": [
+        "diagnosed respiratory disease",
+        "symptoms",
+        "lung function",
+        "exacerbations"
+      ],
+      "preferred_designs": [],
+      "protocol_status": "question_framework_defined",
+      "candidate_cards": 98,
+      "result_bearing_candidate_cards": 96,
+      "excluded_non_result_cards": 2,
+      "excluded_non_result_design_counts": {
+        "study_protocol": 2
+      },
+      "design_counts": {
+        "animal_study": 4,
+        "case_report": 6,
+        "commentary_or_editorial": 7,
+        "in_vitro": 1,
+        "non_randomised_intervention": 1,
+        "qualitative_study": 1,
+        "randomised_controlled_trial": 11,
+        "study_protocol": 2,
+        "systematic_review_or_meta_analysis": 1,
+        "unknown": 64
+      },
+      "integrity_status_counts": {
+        "unknown": 98
+      },
+      "effect_estimate_ready_cards": 0,
+      "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
+      "notice": "Candidate count is a navigation/triage measure, not an effect estimate or certainty assessment. Protocols and post-publication notices are separately counted and excluded from result-bearing synthesis. Quantitative readiness also requires human review and a non-retracted integrity state."
+    },
+    {
+      "id": "cardiovascular_health",
+      "title": "Cardiovascular outcomes associated with vaping",
+      "population": null,
+      "comparators": [
+        "never use",
+        "continued smoking",
+        "former smoking without vaping",
+        "dual use"
+      ],
+      "primary_outcomes": [
+        "cardiovascular disease",
+        "events",
+        "blood pressure",
+        "vascular and cardiac biomarkers"
+      ],
+      "preferred_designs": [],
+      "protocol_status": "question_framework_defined",
+      "candidate_cards": 40,
+      "result_bearing_candidate_cards": 39,
+      "excluded_non_result_cards": 1,
+      "excluded_non_result_design_counts": {
+        "study_protocol": 1
+      },
+      "design_counts": {
+        "animal_study": 1,
+        "case_control": 1,
+        "case_report": 1,
+        "cross_sectional": 2,
+        "in_vitro": 1,
+        "non_randomised_intervention": 1,
+        "randomised_controlled_trial": 6,
+        "study_protocol": 1,
+        "systematic_review_or_meta_analysis": 1,
+        "unknown": 25
+      },
+      "integrity_status_counts": {
+        "unknown": 40
+      },
+      "effect_estimate_ready_cards": 0,
+      "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
+      "notice": "Candidate count is a navigation/triage measure, not an effect estimate or certainty assessment. Protocols and post-publication notices are separately counted and excluded from result-bearing synthesis. Quantitative readiness also requires human review and a non-retracted integrity state."
+    },
+    {
+      "id": "youth_use",
+      "title": "Vaping among children and young people",
+      "population": null,
+      "comparators": [
+        "never smokers",
+        "ever smokers",
+        "current smokers",
+        "age and socioeconomic groups"
+      ],
+      "primary_outcomes": [
+        "ever use",
+        "current use",
+        "regular use",
+        "nicotine use",
+        "subsequent smoking"
+      ],
+      "preferred_designs": [],
+      "protocol_status": "question_framework_defined",
+      "candidate_cards": 189,
+      "result_bearing_candidate_cards": 178,
+      "excluded_non_result_cards": 11,
+      "excluded_non_result_design_counts": {
+        "post_publication_notice": 3,
+        "study_protocol": 8
+      },
+      "design_counts": {
+        "case_report": 1,
+        "commentary_or_editorial": 8,
+        "cross_sectional": 18,
+        "post_publication_notice": 3,
+        "qualitative_study": 6,
+        "randomised_controlled_trial": 15,
+        "study_protocol": 8,
+        "systematic_review_or_meta_analysis": 6,
+        "unknown": 124
+      },
+      "integrity_status_counts": {
+        "unknown": 189
+      },
+      "effect_estimate_ready_cards": 0,
+      "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
+      "notice": "Candidate count is a navigation/triage measure, not an effect estimate or certainty assessment. Protocols and post-publication notices are separately counted and excluded from result-bearing synthesis. Quantitative readiness also requires human review and a non-retracted integrity state."
+    },
+    {
+      "id": "secondhand_exposure",
+      "title": "Second-hand vaping aerosol exposure",
+      "population": null,
+      "comparators": [
+        "no vaping exposure",
+        "cigarette smoke exposure",
+        "ambient background"
+      ],
+      "primary_outcomes": [
+        "particle number and size",
+        "nicotine",
+        "carbonyls and VOCs",
+        "biomarkers",
+        "symptoms"
+      ],
+      "preferred_designs": [],
+      "protocol_status": "question_framework_defined",
+      "candidate_cards": 19,
+      "result_bearing_candidate_cards": 19,
+      "excluded_non_result_cards": 0,
+      "excluded_non_result_design_counts": {},
+      "design_counts": {
+        "animal_study": 1,
+        "cross_sectional": 1,
+        "non_randomised_intervention": 1,
+        "prospective_cohort": 1,
+        "randomised_controlled_trial": 4,
+        "systematic_review_or_meta_analysis": 1,
+        "unknown": 10
+      },
+      "integrity_status_counts": {
+        "unknown": 19
+      },
+      "effect_estimate_ready_cards": 0,
+      "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
+      "notice": "Candidate count is a navigation/triage measure, not an effect estimate or certainty assessment. Protocols and post-publication notices are separately counted and excluded from result-bearing synthesis. Quantitative readiness also requires human review and a non-retracted integrity state."
+    },
+    {
+      "id": "thirdhand_residue",
+      "title": "Third-hand vaping residues and exposure",
+      "population": null,
+      "comparators": [
+        "unexposed surfaces or environments",
+        "tobacco smoke residues"
+      ],
+      "primary_outcomes": [
+        "surface nicotine",
+        "chemical transformation",
+        "transfer or biomarker evidence"
+      ],
+      "preferred_designs": [],
+      "protocol_status": "question_framework_defined",
+      "candidate_cards": 2,
+      "result_bearing_candidate_cards": 2,
+      "excluded_non_result_cards": 0,
+      "excluded_non_result_design_counts": {},
+      "design_counts": {
+        "unknown": 2
+      },
+      "integrity_status_counts": {
+        "unknown": 2
+      },
+      "effect_estimate_ready_cards": 0,
+      "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
+      "notice": "Candidate count is a navigation/triage measure, not an effect estimate or certainty assessment. Protocols and post-publication notices are separately counted and excluded from result-bearing synthesis. Quantitative readiness also requires human review and a non-retracted integrity state."
+    }
+  ],
+  "governance": "No pooled effect or causal conclusion is produced until comparator, outcome, effect-estimate and risk-of-bias fields have been source-grounded and reviewed."
+}

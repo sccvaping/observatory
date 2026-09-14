@@ -1,0 +1,67 @@
+{
+  "schema_version": 3,
+  "generated_at": "2026-09-14T10:46:00.037899+00:00",
+  "publication_contract": "deny-by-default-v2",
+  "files": [
+    {
+      "path": "data/public/research_status.json",
+      "sha256": "dd8e9613080e973d50c56c4694a79a706233b9c32f3bdc413088a324f94012d5",
+      "bytes": 2464
+    },
+    {
+      "path": "environment/source_registry.json",
+      "sha256": "2ab0658eb9138fa5538cc2d20514fc91b0983af655bdea152402b1922309519a",
+      "bytes": 11394
+    },
+    {
+      "path": "evidence/evidence_cards.json",
+      "sha256": "c3c7b5a12b74e58d818b81d23560ba1d9f32db8d1270db886a68e7097404f7dc",
+      "bytes": 752233
+    },
+    {
+      "path": "evidence/health_evidence_summary.json",
+      "sha256": "f4d4e3593683f28342da535634cee61e59db173ff231a1045b483ffbfea7062a",
+      "bytes": 15494
+    },
+    {
+      "path": "evidence/ons_prevalence.json",
+      "sha256": "56afce1d931bbae1ef25944803c27bd6e11db2bb6894771b95bc27aa520a0cec",
+      "bytes": 358311
+    },
+    {
+      "path": "evidence/synthesis_register.json",
+      "sha256": "870d4495b30810127c82d6452f7e4800bdae4307a45e7a0e48168163d37e3525",
+      "bytes": 9183
+    },
+    {
+      "path": "evidence/trial_publication_links.json",
+      "sha256": "7446187a59b6a2110b222e618331003b53b570806d2b6bcfbda07747c58ff24f",
+      "bytes": 389607
+    },
+    {
+      "path": "evidence/youth_prevalence.json",
+      "sha256": "56b742e424a4280441aa2648491fb5cf71da6704cc36f94f3e6455b45d935290",
+      "bytes": 826022
+    },
+    {
+      "path": "provenance/release_evidence.json",
+      "sha256": "0ab904b6c2cc4f520f161ea3de1a2a1bcb663d3f9a90230fcdf8b6676bcf8ad3",
+      "bytes": 8728
+    },
+    {
+      "path": "provenance/source_coverage.json",
+      "sha256": "c027ccfc158bf639a8d78f69b3a6ed0bae1f967eb176de74f4cc838682dcf240",
+      "bytes": 14970
+    },
+    {
+      "path": "provenance/source_register.json",
+      "sha256": "6f954406cec21360a1624664113b5c65e819e1897c63e2d89577e3b3404689ff",
+      "bytes": 19313
+    },
+    {
+      "path": "regulation/timeline.json",
+      "sha256": "9e65a924d02e27e99342d1751dc4742bb6a5c804c8efae4d5ef0cee1f2a29ec1",
+      "bytes": 5639
+    }
+  ]
+}
