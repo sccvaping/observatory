@@ -11,6 +11,7 @@
       ? String(value)
       : d.toLocaleDateString('en-GB', {day:'numeric', month:'long', year:'numeric', timeZone:'Europe/London'});
   };
+  const question = (data, id) => (data.synthesis?.questions || []).find(item => item.id === id) || {};
 
   const statusRequest = fetch('data/public/research_status.json', {cache:'no-store'})
     .then(r => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
@@ -31,6 +32,13 @@
       const topics = literature.topic_counts || {};
       const sources = literature.source_records || {};
       const sourceTotal = Object.values(sources).reduce((sum, value) => sum + (Number(value) || 0), 0);
+      const respiratory = question(d, 'respiratory_health');
+      const cardiovascular = question(d, 'cardiovascular_health');
+      const cessation = question(d, 'cessation_nicotine_ecig_vs_nrt');
+      const youth = question(d, 'youth_use');
+      const ons = d.official_prevalence?.ons || {};
+      const ohid = d.official_prevalence?.ohid_youth || {};
+      const nhs = d.official_prevalence?.nhs_youth || {};
 
       set('candidate-evidence-records', fmt.format(literature.canonical_records ?? cards.card_count ?? 0));
       set('canonical-candidate-records', fmt.format(literature.canonical_records ?? cards.card_count ?? 0));
@@ -44,15 +52,35 @@
       set('cessation-count', fmt.format(topics.cessation ?? 0));
       set('cardiovascular-count', fmt.format(topics.cardiovascular ?? 0));
       set('youth-count', fmt.format(topics.youth ?? 0));
+
+      set('respiratory-synthesis-candidates', fmt.format(respiratory.candidate_cards ?? 0));
+      set('respiratory-synthesis-text', fmt.format(respiratory.candidate_cards ?? 0));
+      set('cardiovascular-synthesis-candidates', fmt.format(cardiovascular.candidate_cards ?? 0));
+      set('cardiovascular-synthesis-text', fmt.format(cardiovascular.candidate_cards ?? 0));
+      set('health-human-reviewed', fmt.format(review.reviewed_record_count ?? 0));
+      set('health-effect-ready', fmt.format(Math.max(respiratory.effect_estimate_ready_cards ?? 0, cardiovascular.effect_estimate_ready_cards ?? 0)));
+
+      set('cessation-tagged-literature', fmt.format(topics.cessation ?? 0));
+      set('cessation-synthesis-candidates', fmt.format(cessation.candidate_cards ?? 0));
+      set('cessation-clinical-trials', fmt.format(d.clinical_trials?.record_count ?? 0));
+      set('cessation-effect-ready', fmt.format(cessation.effect_estimate_ready_cards ?? 0));
+
+      set('youth-tagged-literature', fmt.format(topics.youth ?? 0));
+      set('youth-synthesis-candidates', fmt.format(youth.candidate_cards ?? 0));
+      set('ohid-youth-records', fmt.format(ohid.record_count ?? 0));
+      set('nhs-youth-records', fmt.format(nhs.record_count ?? 0));
+
+      set('ons-status', ons.status ? String(ons.status).replaceAll('_', ' ').replace(/^./, c => c.toUpperCase()) : 'Awaiting publication');
+      set('ons-latest-year', ons.latest_year ?? '—');
+      set('ons-estimate-count', fmt.format(ons.estimate_count ?? 0));
+      set('ons-latest-year-count', fmt.format(ons.latest_year_estimate_count ?? 0));
       return d;
     });
 
   Promise.allSettled([statusRequest, evidenceRequest]).then(results => {
-    if (results.some(result => result.status === 'rejected')) {
-      document.documentElement.dataset.publicDataStatus = 'fallback';
-    } else {
-      document.documentElement.dataset.publicDataStatus = 'verified-json';
-    }
+    document.documentElement.dataset.publicDataStatus = results.some(result => result.status === 'rejected')
+      ? 'fallback'
+      : 'verified-json';
   });
 
   const footer = document.querySelector('footer');
