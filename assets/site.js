@@ -15,4 +15,13 @@
       set('refresh-date', date(d.generated_at));
     })
     .catch(() => {});
+
+  const footer=document.querySelector('footer');
+  if(footer&&!footer.querySelector('[data-scc-legal]')){
+    const legal=document.createElement('div');
+    legal.dataset.sccLegal='';
+    legal.style.cssText='max-width:1180px;margin:0 auto;padding:12px 20px 18px;font-size:.78rem;line-height:1.55;opacity:.8';
+    legal.innerHTML='Operated and published by <a href="https://sccnexus.co.uk/">SCC Nexus Limited</a> · Registered in England and Wales · Company No. <a href="https://find-and-update.company-information.service.gov.uk/company/17458303" rel="noopener">17458303</a> · Registered office: 49 Station Road, Polegate, East Sussex, BN26 6EA. Project conclusions remain governed by the published methodology, provenance and review controls.';
+    footer.appendChild(legal);
+  }
 })();
