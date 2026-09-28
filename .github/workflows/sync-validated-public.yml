@@ -80,6 +80,7 @@ jobs:
           cp -a relay/environment/. canonical/environment/
           cp -a relay/regulation/. canonical/regulation/
           cp -a relay/provenance/. canonical/provenance/
+          python canonical/scripts/update_static_fallbacks.py
           python canonical/scripts/validate_public.py
 
       - name: Commit canonical validated publication
@@ -89,7 +90,7 @@ jobs:
           set -euo pipefail
           git config user.name "SCC Vaping Canonical Publisher"
           git config user.email "actions@users.noreply.github.com"
-          git add data/public evidence environment regulation provenance
+          git add data/public evidence environment regulation provenance index.html
           if git diff --cached --quiet; then
             echo "Canonical Observatory already matches verified relay."
             exit 0
