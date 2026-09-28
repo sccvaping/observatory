@@ -7,6 +7,8 @@ import json
 import re
 from pathlib import Path
 
+from update_static_fallbacks import check_static_fallbacks
+
 ROOT = Path(__file__).resolve().parents[1]
 FORBIDDEN_DIRECTORY_NAMES = {"raw", "working", "protected", "investigation", "private", "credentials", "secrets"}
 REQUIRED_SITE_FILES = [
@@ -135,6 +137,7 @@ def validate_repository() -> list[str]:
             errors.append(f"forbidden public path: {rel}")
     validate_manifest(errors)
     validate_evidence_cards(errors)
+    errors.extend(check_static_fallbacks())
     return errors
 
 
