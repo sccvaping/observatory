@@ -40,8 +40,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if grep -R -n --include='*.yml' --include='*.yaml' 'homegundredaroad/Vaping26' .github/workflows; then
-            echo "::error::An active canonical Observatory workflow still depends on the legacy Vaping26 relay."
+          legacy_owner="home""gundredaroad"
+          legacy_repo="Vaping""26"
+          if grep -R -n --include='*.yml' --include='*.yaml' "$legacy_owner/$legacy_repo" .github/workflows; then
+            echo "::error::An active canonical Observatory workflow still depends on the historical relay."
             exit 1
           fi
 
