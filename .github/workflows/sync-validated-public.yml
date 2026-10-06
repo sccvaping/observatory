@@ -143,3 +143,42 @@ jobs:
             echo "Canonical repository currently maintained through the verified historical transport relay."
           fi
           echo "Canonical SCC Vaping public data verified at $(git rev-parse HEAD)"
+
+
+  deploy:
+    name: Deploy verified canonical snapshot
+    needs: sync
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout canonical main after sync
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          path: canonical
+
+      - name: Revalidate canonical public release before deployment
+        run: python canonical/scripts/validate_public.py
+
+      - name: Configure Pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+        with:
+          enablement: true
+
+      - name: Upload verified canonical site
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: canonical
+
+      - name: Deploy verified canonical site
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
