@@ -1,5 +1,5 @@
-source_research_run=34880520789
-source_relay_publish_run=34880691517
-canonical_sync_run=34880824497
-requested_at=2026-09-14T18:27:00Z
-purpose=Deploy the latest manifest-verified SCC Vaping release from canonical main after successful VVIP sync.
+source_research_run=37416148244
+source_relay_publish_run=37416256776
+canonical_sync_run=triggered_on_merge
+requested_at=2026-10-06T05:00:00Z
+purpose=Trigger immediate canonical verification and import of the latest manifest-verified SCC Vaping relay publication after authoritative-gate production proof.
