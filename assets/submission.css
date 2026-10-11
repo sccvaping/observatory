@@ -1,0 +1,14 @@
+/* Scope: public-safe scientific, commercial and redaction gateways. */
+.portal-metrics,.portal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.portal-metrics{grid-template-columns:repeat(4,minmax(0,1fr))}
+.portal-metrics article,.portal-grid article{padding:1.35rem;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.025)}
+.portal-metrics span{display:block;font-size:.77rem;color:var(--muted)}
+.portal-metrics strong{display:block;margin-top:.5rem;font-size:clamp(1rem,2vw,1.75rem);overflow-wrap:anywhere;color:var(--mint)}
+.portal-grid h3{margin-top:0}
+.portal-grid p{color:var(--muted)}
+.portal-table{width:100%;border-collapse:collapse}
+.portal-table th,.portal-table td{text-align:left;vertical-align:top;padding:.95rem;border-bottom:1px solid var(--line)}
+.portal-table th{color:var(--mint)}
+[aria-current=page]{color:var(--mint)!important;text-decoration:underline!important}
+@media(max-width:850px){.portal-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.portal-table{display:block;overflow-x:auto}}
+@media(max-width:590px){.portal-metrics,.portal-grid{grid-template-columns:1fr}.portal-table{font-size:.84rem}}
