@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FORBIDDEN_DIRECTORY_NAMES = {"raw", "working", "protected", "investigation", "private", "credentials", "secrets"}
 REQUIRED_SITE_FILES = [
     "index.html", "health.html", "cessation.html", "prevalence.html", "evidence.html",
-    "methodology.html", "privacy.html", "review.html", "academic.html", "robots.txt", "sitemap.xml",
+    "methodology.html", "privacy.html", "review.html", "academic.html", "submission.html", "business.html", "redactions.html", "assets/submission.css", "assets/submission-status.js", "robots.txt", "sitemap.xml",
 ]
 MANIFESTED_DATA_ROOTS = ("data/public", "evidence", "environment", "regulation", "provenance")
 REVIEWED_STATES = {"reviewed", "verified", "validated", "human_reviewed"}
@@ -135,6 +135,10 @@ def validate_repository() -> list[str]:
         rel = path.relative_to(ROOT)
         if {part.lower() for part in rel.parts[:-1]} & FORBIDDEN_DIRECTORY_NAMES:
             errors.append(f"forbidden public path: {rel}")
+    for page, marker in (("submission.html", "data-submission-status"), ("business.html", "Commercial readiness"), ("redactions.html", "redaction-boundary")):
+        text = (ROOT / page).read_text(encoding="utf-8") if (ROOT / page).is_file() else ""
+        if marker not in text:
+            errors.append(f"{page} missing required public-disclosure section")
     validate_manifest(errors)
     validate_evidence_cards(errors)
     errors.extend(check_static_fallbacks())
