@@ -20,8 +20,8 @@
         "randomised_controlled_trial"
       ],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 64,
-      "result_bearing_candidate_cards": 58,
+      "candidate_cards": 63,
+      "result_bearing_candidate_cards": 57,
       "excluded_non_result_cards": 6,
       "excluded_non_result_design_counts": {
         "study_protocol": 6
@@ -29,13 +29,13 @@
       "design_counts": {
         "cross_sectional": 3,
         "non_randomised_intervention": 1,
-        "randomised_controlled_trial": 25,
+        "randomised_controlled_trial": 24,
         "study_protocol": 6,
         "systematic_review_or_meta_analysis": 5,
         "unknown": 24
       },
       "integrity_status_counts": {
-        "unknown": 64
+        "unknown": 63
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
@@ -59,8 +59,8 @@
       ],
       "preferred_designs": [],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 95,
-      "result_bearing_candidate_cards": 91,
+      "candidate_cards": 93,
+      "result_bearing_candidate_cards": 89,
       "excluded_non_result_cards": 4,
       "excluded_non_result_design_counts": {
         "post_publication_notice": 2,
@@ -76,10 +76,10 @@
         "randomised_controlled_trial": 11,
         "study_protocol": 2,
         "systematic_review_or_meta_analysis": 1,
-        "unknown": 59
+        "unknown": 57
       },
       "integrity_status_counts": {
-        "unknown": 95
+        "unknown": 93
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
@@ -148,8 +148,8 @@
       ],
       "preferred_designs": [],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 180,
-      "result_bearing_candidate_cards": 169,
+      "candidate_cards": 177,
+      "result_bearing_candidate_cards": 166,
       "excluded_non_result_cards": 11,
       "excluded_non_result_design_counts": {
         "post_publication_notice": 3,
@@ -158,16 +158,16 @@
       "design_counts": {
         "case_report": 1,
         "commentary_or_editorial": 8,
-        "cross_sectional": 17,
+        "cross_sectional": 16,
         "post_publication_notice": 3,
         "qualitative_study": 7,
         "randomised_controlled_trial": 13,
         "study_protocol": 8,
         "systematic_review_or_meta_analysis": 6,
-        "unknown": 117
+        "unknown": 115
       },
       "integrity_status_counts": {
-        "unknown": 180
+        "unknown": 177
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",

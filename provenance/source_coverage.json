@@ -1,20 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T04:23:09.998380+00:00",
+  "generated_at": "2026-10-13T05:03:09.389356+00:00",
   "summary": {
     "registered_sources": 43,
     "implemented_sources": 14,
     "attempted_sources": 11,
-    "successful_sources": 11,
-    "evidence_successful_sources": 10,
+    "successful_sources": 10,
+    "evidence_successful_sources": 9,
     "discovery_successful_sources": 1,
-    "failed_attempts": 0,
-    "health_successful_sources": 5,
+    "failed_attempts": 1,
+    "health_successful_sources": 4,
     "status_counts": {
       "configured": 2,
       "deprecated": 1,
+      "failed": 1,
       "not_configured": 2,
-      "records_downloaded": 11,
+      "records_downloaded": 10,
       "registered": 27
     },
     "family_attempts": {
@@ -25,7 +26,7 @@
       "products": 1
     },
     "family_evidence_successes": {
-      "health": 5,
+      "health": 4,
       "high_street": 1,
       "prevalence": 3,
       "products": 1
@@ -51,9 +52,9 @@
       "catalogue_status": "configured",
       "implementation": "active_collector",
       "attempted": true,
-      "run_status": "records_downloaded",
-      "records": 100,
-      "success": true
+      "run_status": "failed",
+      "records": null,
+      "success": false
     },
     {
       "source_id": "crossref",
