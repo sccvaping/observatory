@@ -26,101 +26,21 @@ jobs:
         with:
           path: canonical
 
-      - name: Detect direct canonical publication mode
-        id: mode
+      - name: Require direct canonical publication marker
         shell: bash
         run: |
           set -euo pipefail
-          if [ -f canonical/publication-mode.json ]; then
-            python - <<'PY'
+          test -f canonical/publication-mode.json || { echo "::error::Canonical marker missing; legacy relay is retired"; exit 1; }
+          python - <<'PY'
           import json
           from pathlib import Path
           p = json.loads(Path("canonical/publication-mode.json").read_text(encoding="utf-8"))
           if p.get("mode") != "direct_canonical" or p.get("target") != "sccvaping/observatory":
-              raise SystemExit("Invalid canonical publication-mode marker")
-          print("Direct canonical publication marker verified.")
+              raise SystemExit("Invalid canonical publication marker")
+          if p.get("source_repository") != "sccvaping/research" or not str(p.get("source_run_id", "")).isdigit():
+              raise SystemExit("Invalid canonical publication provenance")
+          print("Direct canonical publication provenance verified")
           PY
-            echo "direct=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "direct=false" >> "$GITHUB_OUTPUT"
-            echo "Direct publication marker absent; using the verified historical relay until canonical credentials are provisioned."
-          fi
-
-      - name: Checkout verified historical transport relay
-        if: steps.mode.outputs.direct != 'true'
-        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
-        with:
-          repository: homegundredaroad/Vaping26
-          path: relay
-
-      - name: Verify relay publication manifest
-        if: steps.mode.outputs.direct != 'true'
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          import hashlib
-          import json
-          from pathlib import Path
-
-          root = Path("relay")
-          manifest_path = root / "provenance" / "publication_manifest.json"
-          if not manifest_path.is_file():
-              raise SystemExit("relay publication manifest missing")
-          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-          files = manifest.get("files")
-          if not isinstance(files, list) or not files:
-              raise SystemExit("relay publication manifest has no files")
-          allowed = ("data/public/", "evidence/", "environment/", "regulation/", "provenance/")
-          seen = set()
-          for item in files:
-              rel = item.get("path")
-              if not isinstance(rel, str) or not rel.startswith(allowed) or ".." in Path(rel).parts:
-                  raise SystemExit(f"unsafe relay manifest path: {rel!r}")
-              if rel in seen:
-                  raise SystemExit(f"duplicate relay manifest path: {rel}")
-              seen.add(rel)
-              path = root / rel
-              if not path.is_file():
-                  raise SystemExit(f"relay manifest file missing: {rel}")
-              digest = hashlib.sha256(path.read_bytes()).hexdigest()
-              if digest != item.get("sha256"):
-                  raise SystemExit(f"relay manifest hash mismatch: {rel}")
-              if path.stat().st_size != item.get("bytes"):
-                  raise SystemExit(f"relay manifest byte-size mismatch: {rel}")
-          print(f"Verified {len(files)} manifested relay files")
-          PY
-
-      - name: Replace only allowlisted generated outputs
-        if: steps.mode.outputs.direct != 'true'
-        shell: bash
-        run: |
-          set -euo pipefail
-          mkdir -p canonical/data/public canonical/evidence canonical/environment canonical/regulation canonical/provenance
-          find canonical/data/public canonical/evidence canonical/environment canonical/regulation canonical/provenance -maxdepth 1 -type f -name '*.json' -delete
-          cp -a relay/data/public/. canonical/data/public/
-          cp -a relay/evidence/. canonical/evidence/
-          cp -a relay/environment/. canonical/environment/
-          cp -a relay/regulation/. canonical/regulation/
-          cp -a relay/provenance/. canonical/provenance/
-          python canonical/scripts/update_static_fallbacks.py
-          python canonical/scripts/validate_public.py
-
-      - name: Commit canonical validated publication
-        if: steps.mode.outputs.direct != 'true'
-        working-directory: canonical
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "SCC Vaping Canonical Publisher"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/public evidence environment regulation provenance index.html
-          if git diff --cached --quiet; then
-            echo "Canonical Observatory already matches verified relay."
-            exit 0
-          fi
-          git commit -m "Sync validated SCC Vaping public data"
-          git push
 
       - name: Verify canonical branch
         working-directory: canonical
