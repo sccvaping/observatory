@@ -20,22 +20,23 @@
         "randomised_controlled_trial"
       ],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 64,
-      "result_bearing_candidate_cards": 58,
+      "candidate_cards": 67,
+      "result_bearing_candidate_cards": 61,
       "excluded_non_result_cards": 6,
       "excluded_non_result_design_counts": {
         "study_protocol": 6
       },
       "design_counts": {
-        "cross_sectional": 3,
+        "cross_sectional": 4,
         "non_randomised_intervention": 1,
-        "randomised_controlled_trial": 26,
+        "qualitative_study": 1,
+        "randomised_controlled_trial": 23,
         "study_protocol": 6,
-        "systematic_review_or_meta_analysis": 5,
-        "unknown": 23
+        "systematic_review_or_meta_analysis": 6,
+        "unknown": 26
       },
       "integrity_status_counts": {
-        "unknown": 64
+        "unknown": 67
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
@@ -67,7 +68,7 @@
         "study_protocol": 2
       },
       "design_counts": {
-        "animal_study": 4,
+        "animal_study": 5,
         "case_report": 6,
         "commentary_or_editorial": 7,
         "non_randomised_intervention": 1,
@@ -75,7 +76,6 @@
         "qualitative_study": 1,
         "randomised_controlled_trial": 11,
         "study_protocol": 2,
-        "systematic_review_or_meta_analysis": 1,
         "unknown": 56
       },
       "integrity_status_counts": {
@@ -103,8 +103,8 @@
       ],
       "preferred_designs": [],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 48,
-      "result_bearing_candidate_cards": 47,
+      "candidate_cards": 47,
+      "result_bearing_candidate_cards": 46,
       "excluded_non_result_cards": 1,
       "excluded_non_result_design_counts": {
         "study_protocol": 1
@@ -120,10 +120,10 @@
         "randomised_controlled_trial": 6,
         "study_protocol": 1,
         "systematic_review_or_meta_analysis": 1,
-        "unknown": 33
+        "unknown": 32
       },
       "integrity_status_counts": {
-        "unknown": 48
+        "unknown": 47
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
@@ -148,8 +148,8 @@
       ],
       "preferred_designs": [],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 177,
-      "result_bearing_candidate_cards": 166,
+      "candidate_cards": 181,
+      "result_bearing_candidate_cards": 170,
       "excluded_non_result_cards": 11,
       "excluded_non_result_design_counts": {
         "post_publication_notice": 3,
@@ -157,17 +157,17 @@
       },
       "design_counts": {
         "case_report": 1,
-        "commentary_or_editorial": 8,
+        "commentary_or_editorial": 7,
         "cross_sectional": 17,
         "post_publication_notice": 3,
         "qualitative_study": 7,
-        "randomised_controlled_trial": 13,
+        "randomised_controlled_trial": 14,
         "study_protocol": 8,
         "systematic_review_or_meta_analysis": 6,
-        "unknown": 114
+        "unknown": 118
       },
       "integrity_status_counts": {
-        "unknown": 177
+        "unknown": 181
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
@@ -191,8 +191,8 @@
       ],
       "preferred_designs": [],
       "protocol_status": "question_framework_defined",
-      "candidate_cards": 18,
-      "result_bearing_candidate_cards": 18,
+      "candidate_cards": 19,
+      "result_bearing_candidate_cards": 19,
       "excluded_non_result_cards": 0,
       "excluded_non_result_design_counts": {},
       "design_counts": {
@@ -200,11 +200,11 @@
         "cross_sectional": 1,
         "non_randomised_intervention": 1,
         "randomised_controlled_trial": 4,
-        "systematic_review_or_meta_analysis": 1,
+        "systematic_review_or_meta_analysis": 2,
         "unknown": 10
       },
       "integrity_status_counts": {
-        "unknown": 18
+        "unknown": 19
       },
       "effect_estimate_ready_cards": 0,
       "synthesis_status": "awaiting_structured_outcome_extraction_and_review",
