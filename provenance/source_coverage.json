@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T11:13:00.380453+00:00",
+  "generated_at": "2026-11-02T13:36:05.496451+00:00",
   "summary": {
     "registered_sources": 43,
     "implemented_sources": 14,
@@ -74,7 +74,7 @@
       "implementation": "active_collector",
       "attempted": true,
       "run_status": "records_downloaded",
-      "records": 71075,
+      "records": 68325,
       "success": true
     },
     {
@@ -85,7 +85,7 @@
       "implementation": "active_collector",
       "attempted": true,
       "run_status": "records_downloaded",
-      "records": 849,
+      "records": 851,
       "success": true
     },
     {
@@ -206,7 +206,7 @@
       "implementation": "active_optional_discovery",
       "attempted": true,
       "run_status": "records_downloaded",
-      "records": 16,
+      "records": 17,
       "success": true
     },
     {

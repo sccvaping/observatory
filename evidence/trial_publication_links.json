@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "trial_count_with_publication_references": 287,
-  "trials_with_matched_evidence_cards": 172,
-  "unique_referenced_pmids": 1212,
-  "unique_pmids_matched_to_evidence_cards": 365,
+  "trial_count_with_publication_references": 289,
+  "trials_with_matched_evidence_cards": 174,
+  "unique_referenced_pmids": 1229,
+  "unique_pmids_matched_to_evidence_cards": 370,
   "unmatched_referenced_pmids": [
     "10093176",
     "10170434",
@@ -150,6 +150,7 @@
     "18696313",
     "18925387",
     "18929686",
+    "18936053",
     "18951455",
     "18995826",
     "19005461",
@@ -183,6 +184,7 @@
     "20025372",
     "20053272",
     "20160916",
+    "20167886",
     "20170528",
     "20172508",
     "20204992",
@@ -191,6 +193,7 @@
     "20515211",
     "20528810",
     "20593480",
+    "20621264",
     "20729865",
     "20739685",
     "20824850",
@@ -234,6 +237,7 @@
     "22354905",
     "22371194",
     "22398322",
+    "22405506",
     "22429388",
     "2248123",
     "22503574",
@@ -301,6 +305,7 @@
     "24252691",
     "24297188",
     "24309397",
+    "24321696",
     "24354833",
     "24360534",
     "24394215",
@@ -314,12 +319,14 @@
     "24570664",
     "24591341",
     "24604481",
+    "24629545",
     "24629627",
     "24686476",
     "24698295",
     "24795473",
     "24854418",
     "24893290",
+    "24893602",
     "24962558",
     "24962838",
     "24964250",
@@ -336,13 +343,16 @@
     "25200017",
     "25246792",
     "25307510",
+    "25358660",
     "25380748",
+    "25393172",
     "25407377",
     "25491704",
     "25534212",
     "25555385",
     "25564282",
     "25586973",
+    "25616410",
     "25644587",
     "25644890",
     "25652811",
@@ -361,6 +371,7 @@
     "26022266",
     "26026014",
     "26052984",
+    "26072221",
     "26075554",
     "26160626",
     "26184617",
@@ -419,6 +430,7 @@
     "27663578",
     "27717258",
     "27734465",
+    "27775471",
     "27816041",
     "27913056",
     "2791514",
@@ -855,22 +867,22 @@
   ],
   "reference_type_summary": {
     "BACKGROUND": {
-      "unique_pmids": 935,
-      "matched_pmids": 212,
-      "unmatched_pmids": 723
+      "unique_pmids": 952,
+      "matched_pmids": 217,
+      "unmatched_pmids": 735
     },
     "DERIVED": {
       "unique_pmids": 250,
-      "matched_pmids": 142,
-      "unmatched_pmids": 108
+      "matched_pmids": 143,
+      "unmatched_pmids": 107
     },
     "RESULT": {
-      "unique_pmids": 40,
+      "unique_pmids": 41,
       "matched_pmids": 22,
-      "unmatched_pmids": 18
+      "unmatched_pmids": 19
     }
   },
-  "result_reference_pmids": 40,
+  "result_reference_pmids": 41,
   "result_pmids_matched_to_evidence_cards": 22,
   "unmatched_result_pmids": [
     "10807119",
@@ -878,6 +890,7 @@
     "25644890",
     "26000024",
     "32538283",
+    "33497547",
     "33761149",
     "33784312",
     "33870815",
@@ -2515,6 +2528,11 @@
       "has_results": true,
       "publication_references": [
         {
+          "pmid": "33497547",
+          "reference_type": "RESULT",
+          "matched_to_evidence_card": false
+        },
+        {
           "pmid": "42504048",
           "reference_type": "DERIVED",
           "matched_to_evidence_card": false
@@ -2551,11 +2569,6 @@
         },
         {
           "pmid": "37245855",
-          "reference_type": "DERIVED",
-          "matched_to_evidence_card": false
-        },
-        {
-          "pmid": "33497547",
           "reference_type": "DERIVED",
           "matched_to_evidence_card": false
         }
@@ -2611,6 +2624,24 @@
           "title": "Passive exposure to e-cigarette emissions: Immediate respiratory effects.",
           "year": "2018",
           "doi": "10.18332/tpc/89977",
+          "integrity_status": "unknown"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT03113136",
+      "brief_title": "Examination of Low Wattage and High Wattage E-Cigarettes",
+      "overall_status": "COMPLETED",
+      "has_results": true,
+      "publication_references": [
+        {
+          "pmid": "42924544",
+          "reference_type": "DERIVED",
+          "matched_to_evidence_card": true,
+          "evidence_id": "pmid:42924544",
+          "title": "Changes in preferred e-cigarette flavor, nicotine concentration, wattage and air valve settings and cigarette consumption during a switching trial.",
+          "year": "2026",
+          "doi": "10.1111/add.70687",
           "integrity_status": "unknown"
         }
       ]
@@ -8514,7 +8545,7 @@
     {
       "nct_id": "NCT05751369",
       "brief_title": "Addressing Tobacco, E-Cigarette, and Cannabis Waste",
-      "overall_status": "ACTIVE_NOT_RECRUITING",
+      "overall_status": "COMPLETED",
       "has_results": false,
       "publication_references": [
         {
@@ -11254,7 +11285,7 @@
     {
       "nct_id": "NCT07192601",
       "brief_title": "Developing an E-Cigarette Cessation Intervention for Hispanic/Latina(o) Youth in Florida: The BReATHE Study",
-      "overall_status": "ACTIVE_NOT_RECRUITING",
+      "overall_status": "RECRUITING",
       "has_results": false,
       "publication_references": [
         {
@@ -11924,6 +11955,124 @@
         },
         {
           "pmid": "24399556",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07897058",
+      "brief_title": "Project E-Shift: A Harm Reduction Intervention for Chronically Unhoused Smokers.",
+      "overall_status": "COMPLETED",
+      "has_results": false,
+      "publication_references": [
+        {
+          "pmid": "42530900",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": true,
+          "evidence_id": "pmid:42530900",
+          "title": "Nicotine E-Cigarettes for Cigarette Smoking Cessation: Recommendations to US-Based Clinicians.",
+          "year": "2026",
+          "doi": "10.1001/jama.2026.13087",
+          "integrity_status": "unknown"
+        },
+        {
+          "pmid": "39764385",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": true,
+          "evidence_id": "pmid:39764385",
+          "title": "E-Cigarette switching and financial incentives to promote combustible cigarette cessation among adults accessing shelter services: A pilot study.",
+          "year": "2024",
+          "doi": "10.1016/j.dadr.2024.100295",
+          "integrity_status": "unknown"
+        },
+        {
+          "pmid": "24893602",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "24154511",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": true,
+          "evidence_id": "pmid:24154511",
+          "title": "Pilot investigation of changes in readiness and confidence to quit smoking after E-cigarette experimentation and 1 week of use.",
+          "year": "2014",
+          "doi": "10.1093/ntr/ntt138",
+          "integrity_status": "unknown"
+        },
+        {
+          "pmid": "24629545",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "26072221",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "25358660",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "25616410",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "27775471",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "25078252",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": true,
+          "evidence_id": "pmid:25078252",
+          "title": "Electronic cigarettes: review of use, content, safety, effects on smokers and potential for harm and benefit.",
+          "year": "2014",
+          "doi": "10.1111/add.12659",
+          "integrity_status": "unknown"
+        },
+        {
+          "pmid": "27729564",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": true,
+          "evidence_id": "pmid:27729564",
+          "title": "Have combustible cigarettes met their match? The nicotine delivery profiles and harmful constituent exposures of second-generation and third-generation electronic cigarette users.",
+          "year": "2017",
+          "doi": "10.1136/tobaccocontrol-2016-053041",
+          "integrity_status": "unknown"
+        },
+        {
+          "pmid": "18936053",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "22405506",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "20167886",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "20621264",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "24321696",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "25393172",
           "reference_type": "BACKGROUND",
           "matched_to_evidence_card": false
         }
