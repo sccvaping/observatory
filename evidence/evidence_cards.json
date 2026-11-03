@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "card_count": 907,
+  "card_count": 904,
   "study_design_counts": {
     "animal_study": 8,
     "case_control": 1,
     "case_report": 13,
     "case_series": 2,
-    "commentary_or_editorial": 29,
-    "cross_sectional": 48,
+    "commentary_or_editorial": 28,
+    "cross_sectional": 47,
     "in_vitro": 3,
     "modelling_study": 1,
     "non_randomised_intervention": 15,
@@ -17,10 +17,10 @@
     "randomised_controlled_trial": 109,
     "study_protocol": 33,
     "systematic_review_or_meta_analysis": 39,
-    "unknown": 581
+    "unknown": 580
   },
   "integrity_status_counts": {
-    "unknown": 907
+    "unknown": 904
   },
   "records": [
     {
@@ -450,30 +450,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": null,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42445615",
-      "title": "Warning and informative messages on e-cigarette package leaflets: A Belgian policy case study for public health policymakers.",
-      "year": "2026",
-      "journal": "Tobacco prevention & cessation",
-      "pmid": "42445615",
-      "pmcid": "PMC13358470",
-      "doi": "10.18332/tpc/217789",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Editorial"
-      ],
-      "topic_tags": [],
-      "study_design": "commentary_or_editorial",
-      "study_design_basis": [
-        "editorial"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -996,7 +972,8 @@
       "pmcid": null,
       "doi": "10.1016/j.jadohealth.2026.07.027",
       "sources": [
-        "europe_pmc"
+        "europe_pmc",
+        "pubmed_eutils"
       ],
       "publication_types": [
         "Journal Article"
@@ -1007,7 +984,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1447,8 +1424,7 @@
       "pmcid": null,
       "doi": "10.1093/ntr/ntag116",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -1459,7 +1435,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4199,12 +4175,11 @@
       "pmcid": "PMC13687908",
       "doi": "10.1093/ntr/ntag130",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "research-article"
+        "research-article",
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
@@ -5614,6 +5589,30 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42968717",
+      "title": "Nicotine Equivalence Across Modern Delivery Systems: A Clinical Framework for Perioperative Assessment.",
+      "year": "2026",
+      "journal": "Orthopedic reviews",
+      "pmid": "42968717",
+      "pmcid": "PMC13723376",
+      "doi": "10.52965/001c.172843",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "research-article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42530900",
       "title": "Nicotine E-Cigarettes for Cigarette Smoking Cessation: Recommendations to US-Based Clinicians.",
       "year": "2026",
@@ -6373,29 +6372,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42515169",
-      "title": "Large-Scale Forensic Surveillance of Seized E-Liquids Reveals an Emerging Etomidate-Analog-Centered Vaping Trend in Eastern Taiwan.",
-      "year": "2026",
-      "journal": "Toxics",
-      "pmid": "42515169",
-      "pmcid": "PMC13419080",
-      "doi": "10.3390/toxics14070604",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42824901",
       "title": "Knowledge, perceived harms and reasons for use of disposable electronic cigarettes among youth: a qualitative study in Switzerland.",
       "year": "2026",
@@ -6482,6 +6458,7 @@
       "pmcid": null,
       "doi": "10.5826/mrm.2026.1117",
       "sources": [
+        "europe_pmc",
         "pubmed_eutils"
       ],
       "publication_types": [
@@ -8526,31 +8503,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42512584",
-      "title": "Electronic Cigarette Use and Sleep Quality Among Young Adults in Jazan, Saudi Arabia: A Community-Based Cross-Sectional Study.",
-      "year": "2026",
-      "journal": "Healthcare (Basel, Switzerland)",
-      "pmid": "42512584",
-      "pmcid": "PMC13411711",
-      "doi": "10.3390/healthcare14142068",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "cross_sectional",
-      "study_design_basis": [
-        "cross-sectional"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "doi:10.64898/2026.08.20.746016",
       "title": "Effects of vapor inhalation of 6-methyl nicotine in female and male rats",
       "year": "2026",
@@ -8606,12 +8558,11 @@
       "pmcid": null,
       "doi": "10.1093/ntr/ntag129",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Randomized Controlled Trial"
+        "Randomized Controlled Trial",
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "randomised_controlled_trial",
@@ -8619,7 +8570,7 @@
         "randomized controlled trial"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -9916,31 +9867,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42505576",
-      "title": "Differential Respiratory Responses to Incremental Positive End-Expiratory Pressure Among Healthy Adults, Cigarette Smokers, Electronic Cigarette Users, and Individuals with Asthma.",
-      "year": "2026",
-      "journal": "Diseases (Basel, Switzerland)",
-      "pmid": "42505576",
-      "pmcid": "PMC13408928",
-      "doi": "10.3390/diseases14070248",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "respiratory"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42850819",
       "title": "Diagnosis and Management of Nitazene Dependence in Sydney, Australia: A Case Series.",
       "year": "2026",
@@ -10476,6 +10402,30 @@
       ],
       "integrity_status": "unknown",
       "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "doi:10.64898/2026.10.26.26366558",
+      "title": "Constructing expert models of adolescent vaping behaviour: A mental models study",
+      "year": "2026",
+      "journal": null,
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.64898/2026.10.26.26366558",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "Preprint"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -22142,29 +22092,6 @@
       "publication_types": [
         "review-article",
         "Review",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "title:6dfa0c34fa42d8f69c6da355",
-      "title": "The Age to Vape: Nicotine Use and Behavior Associations in Young Adults",
-      "year": null,
-      "journal": "Cureus",
-      "pmid": null,
-      "pmcid": "PMC13721598",
-      "doi": null,
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
         "Journal Article"
       ],
       "topic_tags": [],
