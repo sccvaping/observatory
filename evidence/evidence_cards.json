@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "card_count": 904,
+  "card_count": 905,
   "study_design_counts": {
     "animal_study": 8,
     "case_control": 1,
     "case_report": 13,
     "case_series": 2,
     "commentary_or_editorial": 28,
-    "cross_sectional": 47,
+    "cross_sectional": 48,
     "in_vitro": 3,
     "modelling_study": 1,
     "non_randomised_intervention": 15,
@@ -15,12 +15,12 @@
     "prospective_cohort": 1,
     "qualitative_study": 18,
     "randomised_controlled_trial": 109,
-    "study_protocol": 33,
+    "study_protocol": 35,
     "systematic_review_or_meta_analysis": 39,
-    "unknown": 580
+    "unknown": 578
   },
   "integrity_status_counts": {
-    "unknown": 904
+    "unknown": 905
   },
   "records": [
     {
@@ -31,6 +31,30 @@
       "pmid": "42963140",
       "pmcid": "PMC13722572",
       "doi": "10.1002/hpja.70270",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "research-article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42971542",
+      "title": "Supporting Community-Driven Health Promotion: Insights From a National Best Practice Unit.",
+      "year": "2027",
+      "journal": "Health promotion journal of Australia : official journal of Australian Association of Health Promotion Professionals",
+      "pmid": "42971542",
+      "pmcid": "PMC13727369",
+      "doi": "10.1002/hpja.70278",
       "sources": [
         "europe_pmc",
         "pubmed_eutils"
@@ -154,6 +178,76 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42612527",
+      "title": "Cannabis use modalities are associated with sociodemographic characteristics and patterns of cannabis use among US adults: A latent class analysis.",
+      "year": "2027",
+      "journal": "Addictive behaviors",
+      "pmid": "42612527",
+      "pmcid": null,
+      "doi": "10.1016/j.addbeh.2026.108829",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42800375",
+      "title": "Cannabis use and route-specific administration among U.S. adults who do and do not use tobacco: Findings from the 2024 Health Information National Trends Survey.",
+      "year": "2027",
+      "journal": "Addictive behaviors",
+      "pmid": "42800375",
+      "pmcid": "PMC13674590",
+      "doi": "10.1016/j.addbeh.2026.108868",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "research-article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42628133",
+      "title": "Bidirectional associations between pain and e-cigarette use among young adults using data from PATH Waves 7 and 7.5.",
+      "year": "2027",
+      "journal": "Addictive behaviors",
+      "pmid": "42628133",
+      "pmcid": null,
+      "doi": "10.1016/j.addbeh.2026.108839",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "doi:10.31234/osf.io/zt5g7_v2",
       "title": "“If you don’t vape, it’s abnormal”: Attitudes, perspectives, and perceived functions of vaping and nicotine pouches in Ireland",
       "year": "2026",
@@ -188,13 +282,16 @@
         "pubmed_eutils"
       ],
       "publication_types": [
+        "Case Reports",
         "English Abstract",
-        "Journal Article",
-        "Review"
+        "Journal Article"
       ],
       "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
+      "study_design": "case_report",
+      "study_design_basis": [
+        "case report",
+        "case reports"
+      ],
       "integrity_status": "unknown",
       "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -226,6 +323,33 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42986046",
+      "title": "[The design process and protocol for a cognitive-behavioral intervention to reduce electronic cigarette use among university students].",
+      "year": "2026",
+      "journal": "Revista espanola de salud publica",
+      "pmid": "42986046",
+      "pmcid": null,
+      "doi": "pii: e202611089",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "English Abstract",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "topic_tags": [],
+      "study_design": "study_protocol",
+      "study_design_basis": [
+        "title/publication type identifies a protocol rather than completed results"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42562595",
       "title": "Youth vaping in Europe: nicotine regulation needs respiratory end-points.",
       "year": "2026",
@@ -249,33 +373,6 @@
       ],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42458366",
-      "title": "Youth perspectives on how social influences impacted nicotine vaping cessation: A qualitative thematic analysis.",
-      "year": "2026",
-      "journal": "BMC public health",
-      "pmid": "42458366",
-      "pmcid": "PMC13651021",
-      "doi": "10.1186/s12889-026-28355-4",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "qualitative_study",
-      "study_design_basis": [
-        "qualitative"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -454,33 +551,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42512209",
-      "title": "Volatile Organic Compound Metabolites Are Found in the Urine of Breastfed Infants Whose Mothers Use Cannabis: The Lactation and Cannabis (LAC) Study.",
-      "year": "2026",
-      "journal": "International journal of environmental research and public health",
-      "pmid": "42512209",
-      "pmcid": "PMC13410178",
-      "doi": "10.3390/ijerph23070905",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Research Support, Non-U.S. Gov't",
-        "research-article",
-        "Journal Article",
-        "Research Support, N.I.H., Extramural"
-      ],
-      "topic_tags": [
-        "aerosol_chemistry"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:41735796",
       "title": "Vascular health after quitting smoking or switching to e-cigarette use: a systematic review of prospective studies with GRADE assessment.",
       "year": "2026",
@@ -489,12 +559,11 @@
       "pmcid": null,
       "doi": "10.1093/eurjpc/zwag123",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Systematic Review"
+        "Systematic Review",
+        "Journal Article"
       ],
       "topic_tags": [
         "cardiovascular",
@@ -504,28 +573,6 @@
       "study_design_basis": [
         "systematic review"
       ],
-      "integrity_status": "unknown",
-      "open_access": null,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42454922",
-      "title": "Vapor Tales: The Effects of Narrative Fear Appeal on Vaping Cessation Among American Young Adults.",
-      "year": "2026",
-      "journal": "Health communication",
-      "pmid": "42454922",
-      "pmcid": null,
-      "doi": "10.1080/10410236.2026.2703684",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -556,6 +603,32 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42986418",
+      "title": "Vaping-associated acute tubular injury presenting as a pulmonary-renal syndrome in an adolescent.",
+      "year": "2026",
+      "journal": "Pediatric nephrology (Berlin, Germany)",
+      "pmid": "42986418",
+      "pmcid": null,
+      "doi": "10.1007/s00467-026-07629-4",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "respiratory",
+        "youth"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42956860",
       "title": "Vaping, Tobacco, and Nicotine Treatment ECHO: A Brief Report on Building Tobacco Treatment Capacity in Missouri.",
       "year": "2026",
@@ -564,8 +637,7 @@
       "pmcid": null,
       "doi": "10.1016/j.amepre.2026.108631",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -574,7 +646,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -587,7 +659,8 @@
       "pmcid": null,
       "doi": "10.1016/j.molimm.2026.08.013",
       "sources": [
-        "europe_pmc"
+        "europe_pmc",
+        "pubmed_eutils"
       ],
       "publication_types": [
         "Journal Article"
@@ -598,7 +671,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -804,12 +877,11 @@
       "pmcid": "PMC13693875",
       "doi": "10.1371/journal.pone.0360863",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "research-article"
+        "research-article",
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
@@ -867,6 +939,28 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "doi:10.21203/rs.3.rs-10599575/v1",
+      "title": "Vaping Product Users’ Awareness, Perceptions and Anticipated Responses to Potential Changes Under the UK Tobacco and Vapes Act 2026",
+      "year": "2026",
+      "journal": null,
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.21203/rs.3.rs-10599575/v1",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "Preprint"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "doi:10.21203/rs.3.rs-9995925/v1",
       "title": "Vaping Cessation During Pregnancy Among Smoke-Free HOPE Participants: A Qualitative Thematic Analysis",
       "year": "2026",
@@ -911,6 +1005,31 @@
       ],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42992627",
+      "title": "Vape Advertising Exposure, Product Attitudes and Behavioural Intentions Among Young Australians: A Cross-Sectional Study.",
+      "year": "2026",
+      "journal": "Drug and alcohol review",
+      "pmid": "42992627",
+      "pmcid": null,
+      "doi": "10.1111/dar.70289",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1007,6 +1126,31 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42993116",
+      "title": "Urban-Rural Differences in Youth Nicotine Use, 2011-2022.",
+      "year": "2026",
+      "journal": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
+      "pmid": "42993116",
+      "pmcid": null,
+      "doi": "10.1016/j.jadohealth.2026.08.032",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1250,6 +1394,33 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42996486",
+      "title": "Trends in exclusive and dual cigarette and electronic cigarette use among United States middle and high school students from 2017 to 2024: A cross-sectional analysis. ",
+      "year": "2026",
+      "journal": "Tobacco induced diseases",
+      "pmid": "42996486",
+      "pmcid": "PMC13740278",
+      "doi": "10.18332/tid/231124",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
+      "integrity_status": "unknown",
+      "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:41865844",
       "title": "Trends in Weight Status and E-Cigarette Use Among U.S. Youth From 2017 to 2023.",
       "year": "2026",
@@ -1301,20 +1472,20 @@
       "year": "2026",
       "journal": "Tobacco induced diseases",
       "pmid": "42964520",
-      "pmcid": null,
+      "pmcid": "PMC13720716",
       "doi": "10.18332/tid/226559",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
+        "research-article",
         "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1416,6 +1587,29 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42372067",
+      "title": "Tobacco use and cessation strategies among individuals recently diagnosed with cancer.",
+      "year": "2026",
+      "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
+      "pmid": "42372067",
+      "pmcid": "PMC13725580",
+      "doi": "10.1093/ntr/ntag145",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42334233",
       "title": "Tobacco product use among middle and high school students in the United States: National Youth Tobacco Survey, 2025.",
       "year": "2026",
@@ -1461,6 +1655,57 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42992608",
+      "title": "Tobacco and Mint Flavoured E-cigarettes: Chemical Analysis and Similarity to Prohibited Sweet Flavours.",
+      "year": "2026",
+      "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
+      "pmid": "42992608",
+      "pmcid": null,
+      "doi": "10.1093/ntr/ntag241",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42980185",
+      "title": "Tobacco Use and Self-Reported Perceptions of Health Risks among 7,213 Adolescents Living in Sicily (Italy): A Cross-Sectional Survey-Based Study.",
+      "year": "2026",
+      "journal": "European journal of paediatric dentistry",
+      "pmid": "42980185",
+      "pmcid": null,
+      "doi": "10.23804/ejpd.2026.2796",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1591,8 +1836,7 @@
       "pmcid": null,
       "doi": "10.1037/pha0000882",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -1601,7 +1845,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1753,13 +1997,11 @@
       "pmcid": null,
       "doi": "10.1016/j.addbeh.2026.108887",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "IM",
-        "Journal Article",
-        "Review"
+        "Review",
+        "Journal Article"
       ],
       "topic_tags": [
         "youth"
@@ -1769,7 +2011,7 @@
         "systematic review"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -1933,14 +2175,13 @@
       "pmcid": "PMC13704818",
       "doi": "10.1371/journal.pone.0361200",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
         "Meta-Analysis",
+        "research-article",
         "Systematic Review",
-        "research-article"
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "systematic_review_or_meta_analysis",
@@ -1995,29 +2236,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42519710",
-      "title": "The UK's Tobacco and Vapes Act puts the end of smoking within reach, but the job is not done.",
-      "year": "2026",
-      "journal": "The Lancet regional health. Europe",
-      "pmid": "42519710",
-      "pmcid": "PMC13382405",
-      "doi": "10.1016/j.lanepe.2026.101781",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "discussion",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -2213,73 +2431,25 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42446505",
-      "title": "The Case for a Pregnancy-Specific Nicotine Policy.",
-      "year": "2026",
-      "journal": "Acta paediatrica (Oslo, Norway : 1992)",
-      "pmid": "42446505",
-      "pmcid": null,
-      "doi": "10.1111/apa.70687",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Review",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42598725",
-      "title": "The Association Between E-cigarette Use and Sleep Duration Among Adolescents and Young Adults: A Structured Narrative Review.",
-      "year": "2026",
-      "journal": "Cureus",
-      "pmid": "42598725",
-      "pmcid": "PMC13472699",
-      "doi": "10.7759/cureus.112672",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "review-article",
-        "Review",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42965074",
-      "title": "The Age to Vape: Nicotine Use and Behavior Associations in Young Adults. ",
+      "title": "The Age to Vape: Nicotine Use and Behavior Associations in Young Adults.",
       "year": "2026",
       "journal": "Cureus",
       "pmid": "42965074",
-      "pmcid": null,
+      "pmcid": "PMC13721598",
       "doi": "10.7759/cureus.117213",
       "sources": [
         "europe_pmc"
       ],
       "publication_types": [
+        "research-article",
         "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -2308,24 +2478,27 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42526852",
-      "title": "Temporal generalized linear mixed models for monitoring national health behavior in the United States using subnational observational data.",
+      "evidence_id": "pmid:42993708",
+      "title": "Testing the effects of nicotine concentration and nicotine source claims on oral nicotine pouch packaging engagement, self-reported perceptions and use intentions, and product trial in young adults and adults: Protocol for a randomized trial.",
       "year": "2026",
-      "journal": "Epidemiology and health",
-      "pmid": "42526852",
+      "journal": "PloS one",
+      "pmid": "42993708",
       "pmcid": null,
-      "doi": "10.4178/epih.e2026035",
+      "doi": "10.1371/journal.pone.0362172",
       "sources": [
-        "europe_pmc"
+        "clinicaltrials_pubmed_recovery"
       ],
       "publication_types": [
-        "Journal Article"
+        "Journal Article",
+        "Randomized Controlled Trial"
       ],
       "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
+      "study_design": "study_protocol",
+      "study_design_basis": [
+        "title/publication type identifies a protocol rather than completed results"
+      ],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -2356,46 +2529,21 @@
       "evidence_id": "doi:10.21203/rs.3.rs-11528001/v1",
       "title": "Synthetic Nicotine Analogue, Nicotine and CBD in US-marketed “Tobacco-Free” Cigarettes",
       "year": "2026",
-      "journal": null,
+      "journal": "Research square",
       "pmid": null,
-      "pmcid": null,
+      "pmcid": "PMC13734282",
       "doi": "10.21203/rs.3.rs-11528001/v1",
       "sources": [
         "europe_pmc"
       ],
       "publication_types": [
-        "Preprint"
+        "Journal Article",
+        "Preprint",
+        "research-article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42458377",
-      "title": "Symptom-level analysis of problematic social media use and its associations with health, well-being, and lifestyle in Lithuanian adolescents: a cross-sectional study.",
-      "year": "2026",
-      "journal": "BMC public health",
-      "pmid": "42458377",
-      "pmcid": "PMC13651136",
-      "doi": "10.1186/s12889-026-28593-6",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "cross_sectional",
-      "study_design_basis": [
-        "cross-sectional"
-      ],
       "integrity_status": "unknown",
       "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -2620,6 +2768,30 @@
       "study_design_basis": [
         "title/publication type identifies a protocol rather than completed results"
       ],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:43000130",
+      "title": "Study Profile: A National School-Based Survey on Alcohol, Tobacco, and E-cigarette Use, and Menstrual Health Among Junior and Senior High School Students in Japan, 2024.",
+      "year": "2026",
+      "journal": "Journal of epidemiology",
+      "pmid": "43000130",
+      "pmcid": null,
+      "doi": "10.2188/jea.je20260482",
+      "sources": [
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -3058,28 +3230,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42855301",
-      "title": "Secondary analysis of adverse event data from a randomised placebo-controlled trial of e-cigarettes for smoking reduction.",
-      "year": "2026",
-      "journal": "Tobacco control",
-      "pmid": "42855301",
-      "pmcid": null,
-      "doi": "10.1136/tc-2026-060210",
-      "sources": [
-        "pubmed_eutils"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -3764,8 +3914,7 @@
       "pmcid": null,
       "doi": "10.1097/phh.0000000000002467",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -3776,7 +3925,7 @@
         "qualitative"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -3939,31 +4088,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42449326",
-      "title": "Proximity and density of tobacco retail locations to Kentucky schools and the relationship to youth perceptions of harm and susceptibility to e-cigarette use.",
-      "year": "2026",
-      "journal": "BMC public health",
-      "pmid": "42449326",
-      "pmcid": "PMC13647901",
-      "doi": "10.1186/s12889-026-28315-y",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4150,8 +4274,7 @@
       "pmcid": null,
       "doi": "10.4081/monaldi.2026.4279",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -4162,7 +4285,7 @@
         "systematic review"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4202,7 +4325,6 @@
         "pubmed_eutils"
       ],
       "publication_types": [
-        "IM",
         "Journal Article",
         "Review"
       ],
@@ -4568,8 +4690,7 @@
       "pmcid": null,
       "doi": "10.1093/eurjpc/zwag074",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -4578,7 +4699,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4665,8 +4786,7 @@
       "pmcid": null,
       "doi": "10.4274/thoracrespract.2026.2026-7-16",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -4679,7 +4799,7 @@
         "cross-sectional"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4762,29 +4882,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42528573",
-      "title": "Perceptions of Somali American male young adults in Salt Lake City about social media marketing of e-cigarettes: a pilot study.",
-      "year": "2026",
-      "journal": "Frontiers in public health",
-      "pmid": "42528573",
-      "pmcid": "PMC13414751",
-      "doi": "10.3389/fpubh.2026.1819564",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42924254",
       "title": "Perceptions and psychosocial correlates of e-cigarette use among Hong Kong university students: A mixed-methods study.",
       "year": "2026",
@@ -4793,12 +4890,11 @@
       "pmcid": "PMC13690069",
       "doi": "10.18332/tid/226575",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "research-article"
+        "research-article",
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
@@ -4831,6 +4927,29 @@
       ],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42976169",
+      "title": "Patterns of tobacco product single and co-use - Findings from the Population Assessment of Tobacco and Health Study (PATH) wave 7 data.",
+      "year": "2026",
+      "journal": "PloS one",
+      "pmid": "42976169",
+      "pmcid": "PMC13730317",
+      "doi": "10.1371/journal.pone.0360653",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4880,6 +4999,29 @@
       ],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42989190",
+      "title": "Patterns of electronic cigarette and heated tobacco product use among adults in Lithuania.",
+      "year": "2026",
+      "journal": "BMC public health",
+      "pmid": "42989190",
+      "pmcid": "PMC13741604",
+      "doi": "10.1186/s12889-026-28961-2",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4968,12 +5110,11 @@
       "pmcid": "PMC13713118",
       "doi": "10.1093/eurjpc/zwaf552",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "brief-report"
+        "brief-report",
+        "Journal Article"
       ],
       "topic_tags": [
         "cardiovascular"
@@ -4981,7 +5122,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -5113,8 +5254,7 @@
       "pmcid": null,
       "doi": "10.1111/add.70670",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -5125,7 +5265,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -5465,6 +5605,29 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42997344",
+      "title": "Nicotine dependence and smoking topography in tobacco-naïve users of disposable e-cigarettes: A prospective single-center, single-arm interventional study.",
+      "year": "2026",
+      "journal": "Tobacco induced diseases",
+      "pmid": "42997344",
+      "pmcid": null,
+      "doi": "10.18332/tid/236207",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42149979",
       "title": "Nicotine and tobacco transitions among US youth using electronic nicotine delivery systems: associations with frequency, nicotine dependence, and biomarkers of exposure.",
       "year": "2026",
@@ -5560,6 +5723,29 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42980377",
+      "title": "Nicotine Pouches as a Quit Strategy for Nicotine Vaping: Evidence from the Population Assessment of Tobacco and Health (PATH) Study Waves 7 and 7.5 (2022-2023).",
+      "year": "2026",
+      "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
+      "pmid": "42980377",
+      "pmcid": null,
+      "doi": "10.1093/ntr/ntag237",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -5733,6 +5919,33 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42976657",
+      "title": "Mutually exclusive patterns of cigarette and e-cigarette use and self-rated anxiety among adolescents: a national school-based cross-sectional analysis.",
+      "year": "2026",
+      "journal": "Addictive behaviors",
+      "pmid": "42976657",
+      "pmcid": null,
+      "doi": "10.1016/j.addbeh.2026.108891",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42717708",
       "title": "Motives and Risk Perceptions Among Young Adults Engaged in Frequent Vaping and Dual Cannabis Use: Implications for Prevention and Intervention.",
       "year": "2026",
@@ -5774,29 +5987,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42541007",
-      "title": "Modes of Preconception Cannabis Use and Prevalence of Cannabis Use Disorder.",
-      "year": "2026",
-      "journal": "Cannabis (Albuquerque, N.M.)",
-      "pmid": "42541007",
-      "pmcid": "PMC13426741",
-      "doi": "10.26828/cannabis/2026/000387",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "brief-report",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -5881,33 +6071,10 @@
       "pmcid": null,
       "doi": "10.1136/tc-2026-060331",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": null,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "doi:10.64898/2026.07.08.26357588",
-      "title": "Modelling a tobacco-free generation policy in Australia: population health impacts under illicit market uncertainty",
-      "year": "2026",
-      "journal": null,
-      "pmid": null,
-      "pmcid": null,
-      "doi": "10.64898/2026.07.08.26357588",
-      "sources": [
         "europe_pmc"
       ],
       "publication_types": [
-        "Preprint"
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
@@ -5994,21 +6161,19 @@
       "year": "2026",
       "journal": "Toxicology reports",
       "pmid": "42519823",
-      "pmcid": "PMC13382386",
+      "pmcid": null,
       "doi": "10.1016/j.toxrep.2026.102313",
       "sources": [
-        "europe_pmc",
         "pubmed_eutils"
       ],
       "publication_types": [
-        "Journal Article",
-        "research-article"
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": true,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -6083,6 +6248,29 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42985715",
+      "title": "Measuring the Awareness Level of the Residents of Wilayat Sinaw in the Sultanate of Oman Regarding the Dangers of Drugs, Psychoactive Substances, and Electronic Cigarettes.",
+      "year": "2026",
+      "journal": "Cureus",
+      "pmid": "42985715",
+      "pmcid": "PMC13733607",
+      "doi": "10.7759/cureus.117471",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:41848081",
       "title": "Measurement invariance in the Youth Electronic Cigarette Outcome Expectancies Questionnaire across sex and race/ethnicity in pre- to early adolescence.",
       "year": "2026",
@@ -6120,6 +6308,28 @@
       ],
       "publication_types": [
         "research-article",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42976404",
+      "title": "Matrix-wise Raman threshold classification of cooling agents in e-cigarette liquids using methanol redissolution, mixed-standard robustness testing and external validation.",
+      "year": "2026",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "pmid": "42976404",
+      "pmcid": null,
+      "doi": "10.1016/j.saa.2026.129056",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
         "Journal Article"
       ],
       "topic_tags": [],
@@ -6399,33 +6609,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42445782",
-      "title": "Knowledge and attitudes toward e-cigarettes as smoking cessation aids among Saudi Arabian medical students: A cross-sectional study.",
-      "year": "2026",
-      "journal": "Tobacco induced diseases",
-      "pmid": "42445782",
-      "pmcid": "PMC13358856",
-      "doi": "10.18332/tid/221537",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "cessation"
-      ],
-      "study_design": "cross_sectional",
-      "study_design_basis": [
-        "cross-sectional"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42623269",
       "title": "Just Vapor? Zero-Nicotine E-Cigarette Marketing and Public Reactions on TikTok: Implications for Youth Appeal, Harm Perceptions, and Regulation.",
       "year": "2026",
@@ -6446,6 +6629,28 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "doi:10.64898/2026.09.29.26364219",
+      "title": "Investigating the oral and dental effects of nicotine pouches: findings from a patient and professional survey with in-person assessment",
+      "year": "2026",
+      "journal": null,
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.64898/2026.09.29.26364219",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "Preprint"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -6919,29 +7124,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42457396",
-      "title": "Impact of reducing nicotine in cigarettes on mortality, economic costs and major depression in the USA.",
-      "year": "2026",
-      "journal": "Tobacco control",
-      "pmid": "42457396",
-      "pmcid": "PMC13540060",
-      "doi": "10.1136/tc-2025-059896",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42930382",
       "title": "Impact of Traditional and Alternative Nicotine-Containing Product Use on Non-Surgical Periodontal Therapy: A Systematic Review and Network Meta-Analysis.",
       "year": "2026",
@@ -7067,29 +7249,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42436266",
-      "title": "Immigration-Related Sociopolitical Stress, Mental Health, and Tobacco Use Among Mexican American College Students.",
-      "year": "2026",
-      "journal": "Journal of immigrant and minority health",
-      "pmid": "42436266",
-      "pmcid": "PMC13479380",
-      "doi": "10.1007/s10903-026-01958-0",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42936908",
       "title": "Illicitly Traded Tobacco Use Among Samples of People Who Regularly Use Illegal Drugs in Australia, 2024-2025.",
       "year": "2026",
@@ -7186,23 +7345,21 @@
       "evidence_id": "doi:10.64898/2026.10.04.26364669",
       "title": "Identifying Message “Recipes” for High Perceived Effectiveness: Cognitive, Social, and Emotional Profiles of Vaping Public Education Messages Among Young Adults Who Vape",
       "year": "2026",
-      "journal": "medRxiv",
+      "journal": null,
       "pmid": null,
-      "pmcid": "PMC13692367",
+      "pmcid": null,
       "doi": "10.64898/2026.10.04.26364669",
       "sources": [
         "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Preprint",
-        "research-article"
+        "Preprint"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": true,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -7223,6 +7380,32 @@
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "doi:10.21203/rs.3.rs-11292115/v1",
+      "title": "Household Indoor E-Cigarette Use and Frequent or Severe Headache in U.S. Children: A Cross-Sectional NSCH Study",
+      "year": "2026",
+      "journal": null,
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.21203/rs.3.rs-11292115/v1",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "Preprint"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
       "integrity_status": "unknown",
       "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -7291,6 +7474,31 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42997254",
+      "title": "Health taxes: balancing public health interests and individual freedom during an era of abundant misinformation. ",
+      "year": "2026",
+      "journal": "Frontiers in public health",
+      "pmid": "42997254",
+      "pmcid": "PMC13741097",
+      "doi": "10.3389/fpubh.2026.1885569",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "IM",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -7375,12 +7583,11 @@
       "pmcid": "PMC13687997",
       "doi": "10.1113/ep094175",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "brief-report"
+        "brief-report",
+        "Journal Article"
       ],
       "topic_tags": [
         "respiratory"
@@ -7418,6 +7625,29 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42977517",
+      "title": "Global strategies to bypass local restrictions: industry response to New Zealand's ban on the display of e-cigarette products and packaging.",
+      "year": "2026",
+      "journal": "Tobacco control",
+      "pmid": "42977517",
+      "pmcid": null,
+      "doi": "10.1136/tc-2026-060441",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42724196",
       "title": "Global burden and trends of tracheal, bronchus, and lung cancer in adolescents and young adults: a secondary analysis of the Global Burden of Disease Study 2021.",
       "year": "2026",
@@ -7438,6 +7668,34 @@
       ],
       "study_design": "unknown",
       "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42999647",
+      "title": "Gender differences in the use of modern nicotine products among adolescents in northern Germany: a cross-sectional school-based study.",
+      "year": "2026",
+      "journal": "Preventive medicine reports",
+      "pmid": "42999647",
+      "pmcid": "PMC13744218",
+      "doi": "10.1016/j.pmedr.2026.103676",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "research-article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
       "integrity_status": "unknown",
       "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -7877,7 +8135,7 @@
         "cross-sectional"
       ],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -7901,29 +8159,6 @@
       "study_design_basis": [
         "qualitative"
       ],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42515176",
-      "title": "Exploratory Detection of Nile Red-Positive Microparticles in Peripheral Blood Samples from Chronic Users of Nicotine Products Using Flow Cytometry.",
-      "year": "2026",
-      "journal": "Toxics",
-      "pmid": "42515176",
-      "pmcid": "PMC13419147",
-      "doi": "10.3390/toxics14070611",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -7954,30 +8189,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42464013",
-      "title": "Examining Social Norms, Attitudes and Beliefs Regarding Adolescents' Intention to Avoid Vaping to Design Prevention Messages.",
-      "year": "2026",
-      "journal": "Health communication",
-      "pmid": "42464013",
-      "pmcid": null,
-      "doi": "10.1080/10410236.2026.2696876",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42904596",
       "title": "Examining Measurement Agreement Between Momentary and Retrospective Measures of Depression and Anxiety and Their Associations with Vaping in Young Adults.",
       "year": "2026",
@@ -7985,28 +8196,6 @@
       "pmid": "42904596",
       "pmcid": null,
       "doi": "10.1080/10826084.2026.2747704",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42458660",
-      "title": "Evolving cigarette and hand-rolling tobacco purchasing patterns ahead of smokefree generation legislation in Great Britain: a population study, 2020-2025.",
-      "year": "2026",
-      "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
-      "pmid": "42458660",
-      "pmcid": null,
-      "doi": "10.1093/ntr/ntag133",
       "sources": [
         "europe_pmc"
       ],
@@ -8208,28 +8397,6 @@
       "topic_tags": [
         "youth"
       ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "doi:10.20944/preprints202607.1042.v1",
-      "title": "Evaluating Protective Role of MSC-Derived Exosomes Against E-Cigarette-Induced Submandibular Salivary Gland Injury in Adult Male Albino Rats: Biochemical, Histological, and Immunohistochemical Evidence",
-      "year": "2026",
-      "journal": null,
-      "pmid": null,
-      "pmcid": null,
-      "doi": "10.20944/preprints202607.1042.v1",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Preprint"
-      ],
-      "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
@@ -8477,6 +8644,29 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42981554",
+      "title": "Electronic Nicotine Delivery Systems Policy Divergence and Surveillance Gaps: A Cancer Prevention Blind Spot in the WHO South-East Asia Region.",
+      "year": "2026",
+      "journal": "JCO global oncology",
+      "pmid": "42981554",
+      "pmcid": null,
+      "doi": "10.1200/go-25-00630",
+      "sources": [
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42511868",
       "title": "Electronic Cigarettes and Female Reproduction: A Systematic Review of Experimental and Clinical Evidence.",
       "year": "2026",
@@ -8571,6 +8761,34 @@
       ],
       "integrity_status": "unknown",
       "open_access": false,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42201793",
+      "title": "Effects of Switching From Smoking to Vaping on Clozapine Concentration-Dose Ratios and Plasma Clozapine Concentrations: A Systematic Review of Case Reports.",
+      "year": "2026",
+      "journal": "Therapeutic drug monitoring",
+      "pmid": "42201793",
+      "pmcid": null,
+      "doi": "10.1097/ftd.0000000000001476",
+      "sources": [
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Case Reports"
+      ],
+      "topic_tags": [
+        "cessation"
+      ],
+      "study_design": "systematic_review_or_meta_analysis",
+      "study_design_basis": [
+        "systematic review"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -8869,29 +9087,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42443622",
-      "title": "Early life nicotine vapor exposure increases nicotine vapor seeking in adult male rats.",
-      "year": "2026",
-      "journal": "Psychopharmacology",
-      "pmid": "42443622",
-      "pmcid": "PMC13648294",
-      "doi": "10.1007/s00213-026-07122-8",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42649277",
       "title": "Early evidence of the carcinogenic effects of e-cigarette use.",
       "year": "2026",
@@ -8929,30 +9124,6 @@
       ],
       "topic_tags": [
         "cessation"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42438307",
-      "title": "EVALI and Beyond: An Update on the Spectrum of Vaping-Associated Lung Pathology.",
-      "year": "2026",
-      "journal": "The American journal of surgical pathology",
-      "pmid": "42438307",
-      "pmcid": null,
-      "doi": "10.1097/pas.0000000000002585",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "respiratory"
       ],
       "study_design": "unknown",
       "study_design_basis": [],
@@ -9111,8 +9282,7 @@
       "pmcid": null,
       "doi": "10.17269/s41997-026-01270-2",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -9121,7 +9291,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -9602,8 +9772,7 @@
       "pmcid": null,
       "doi": "10.1016/j.ypmed.2026.108686",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -9614,7 +9783,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -9737,6 +9906,30 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:41485699",
+      "title": "Do Young Individuals With Chronic E-Cigarette Exposure Display Cardiopulmonary Abnormalities During Exercise and Blunted Recruitment of Pulmonary Diffusing Capacity?",
+      "year": "2026",
+      "journal": "Chest",
+      "pmid": "41485699",
+      "pmcid": null,
+      "doi": "10.1016/j.chest.2025.12.024",
+      "sources": [
+        "clinicaltrials_pubmed_recovery"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "respiratory"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42716618",
       "title": "Disposable E-Cigarette Regulation to Safeguard Adolescent Lung Health: What We Can Learn Across Borders.",
       "year": "2026",
@@ -9760,35 +9953,6 @@
       ],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42491436",
-      "title": "Digital gamification and serious games for preventing e-cigarette use in adolescents: A systematic review without meta-analysis (SWiM).",
-      "year": "2026",
-      "journal": "Tobacco induced diseases",
-      "pmid": "42491436",
-      "pmcid": "PMC13377530",
-      "doi": "10.18332/tid/214070",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "review-article",
-        "Review",
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "systematic_review_or_meta_analysis",
-      "study_design_basis": [
-        "systematic review",
-        "meta-analysis"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -10041,42 +10205,17 @@
       "pmcid": null,
       "doi": "10.1177/08465371261491714",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Review"
+        "Review",
+        "Journal Article"
       ],
       "topic_tags": [
         "respiratory"
       ],
       "study_design": "unknown",
       "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": null,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42464233",
-      "title": "Demographic predictors of menthol cigarette and flavored e-cigarette restriction policy support among a cross-sectional sample of U.S. adults.",
-      "year": "2026",
-      "journal": "BMC public health",
-      "pmid": "42464233",
-      "pmcid": null,
-      "doi": "10.1186/s12889-026-28547-y",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "cross_sectional",
-      "study_design_basis": [
-        "cross-sectional"
-      ],
       "integrity_status": "unknown",
       "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -10091,8 +10230,7 @@
       "pmcid": null,
       "doi": "10.17269/s41997-026-01271-1",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -10103,7 +10241,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -10284,7 +10422,8 @@
       "pmcid": null,
       "doi": "10.1016/j.molimm.2026.09.006",
       "sources": [
-        "europe_pmc"
+        "europe_pmc",
+        "pubmed_eutils"
       ],
       "publication_types": [
         "Published Erratum"
@@ -10297,7 +10436,7 @@
         "publication type/title identifies a correction, erratum or retraction notice"
       ],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -10337,8 +10476,7 @@
       "pmcid": null,
       "doi": "10.1016/j.ecoenv.2026.120970",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Published Erratum"
@@ -10351,7 +10489,7 @@
         "publication type/title identifies a correction, erratum or retraction notice"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -10400,6 +10538,29 @@
       "study_design_basis": [
         "publication type/title identifies a correction, erratum or retraction notice"
       ],
+      "integrity_status": "unknown",
+      "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42973726",
+      "title": "Consumer-Reported Adverse Health Events and Product Problems Associated with E-Cigarettes: Evidence from FDA Tobacco Product Problem Reports.",
+      "year": "2026",
+      "journal": "Tobacco use insights",
+      "pmid": "42973726",
+      "pmcid": "PMC13724922",
+      "doi": "10.1177/1179173x261491557",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "research-article",
+        "Journal Article"
+      ],
+      "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -10563,29 +10724,6 @@
       ],
       "publication_types": [
         "Comparative Study",
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42496549",
-      "title": "Combustible Cigarette Smoking, Electronic Cigarette Use, and Metabolic Syndrome in a Working Population.",
-      "year": "2026",
-      "journal": "Epidemiologia (Basel, Switzerland)",
-      "pmid": "42496549",
-      "pmcid": "PMC13398340",
-      "doi": "10.3390/epidemiologia7040100",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
         "research-article",
         "Journal Article"
       ],
@@ -10834,31 +10972,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42483420",
-      "title": "Characterizing reasons for e-cigarette use among Filipino adults who smoke: A cross-sectional study.",
-      "year": "2026",
-      "journal": "Tobacco prevention & cessation",
-      "pmid": "42483420",
-      "pmcid": "PMC13386058",
-      "doi": "10.18332/tpc/221661",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "cross_sectional",
-      "study_design_basis": [
-        "cross-sectional"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42784799",
       "title": "Characterizing Online Opinion on Vaping and E-Cigarettes in X (Formerly Twitter) Discourse in Singapore: Infodemiology Study.",
       "year": "2026",
@@ -10880,6 +10993,30 @@
       ],
       "integrity_status": "unknown",
       "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42976443",
+      "title": "Characterization of metal exposure from electronic cigarette use in Maryland, USA, via urine biomarkers.",
+      "year": "2026",
+      "journal": "Environment international",
+      "pmid": "42976443",
+      "pmcid": null,
+      "doi": "10.1016/j.envint.2026.110572",
+      "sources": [
+        "europe_pmc"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "exposure_biomarkers"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -10983,8 +11120,7 @@
       "pmcid": null,
       "doi": "10.1111/add.70687",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -10995,7 +11131,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -11008,12 +11144,11 @@
       "pmcid": null,
       "doi": "10.1007/s00204-026-04583-w",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Review"
+        "Review",
+        "Journal Article"
       ],
       "topic_tags": [
         "cessation",
@@ -11025,7 +11160,7 @@
         "meta-analysis"
       ],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -11058,49 +11193,21 @@
       "evidence_id": "doi:10.21203/rs.3.rs-11234503/v1",
       "title": "Carryover of neotame, WS-23, and other additives from popular disposable e-cigarettes to aerosol",
       "year": "2026",
-      "journal": "Research square",
+      "journal": null,
       "pmid": null,
-      "pmcid": "PMC13692579",
+      "pmcid": null,
       "doi": "10.21203/rs.3.rs-11234503/v1",
       "sources": [
         "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Preprint",
-        "research-article"
+        "Preprint"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42831201",
-      "title": "Cardiovascular-Kidney-Metabolic Syndrome and Health Risk Behaviors in U.S. Adults.",
-      "year": "2026",
-      "journal": "AJPM focus",
-      "pmid": "42831201",
-      "pmcid": "PMC13634515",
-      "doi": "10.1016/j.focus.2026.100529",
-      "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
-      ],
-      "publication_types": [
-        "Journal Article",
-        "research-article"
-      ],
-      "topic_tags": [
-        "cardiovascular"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": true,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -11126,75 +11233,6 @@
       "study_design_basis": [
         "editorial"
       ],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42485841",
-      "title": "Cannabis vaping and tobacco quit intentions, quit attempts, and symptoms of nicotine dependence among youth in the United States.",
-      "year": "2026",
-      "journal": "Drug and alcohol dependence",
-      "pmid": "42485841",
-      "pmcid": null,
-      "doi": "10.1016/j.drugalcdep.2026.113268",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [
-        "youth"
-      ],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42612527",
-      "title": "Cannabis use modalities are associated with sociodemographic characteristics and patterns of cannabis use among US adults: A latent class analysis.",
-      "year": "2026",
-      "journal": "Addictive behaviors",
-      "pmid": "42612527",
-      "pmcid": null,
-      "doi": "10.1016/j.addbeh.2026.108829",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42800375",
-      "title": "Cannabis use and route-specific administration among U.S. adults who do and do not use tobacco: Findings from the 2024 Health Information National Trends Survey.",
-      "year": "2026",
-      "journal": "Addictive behaviors",
-      "pmid": "42800375",
-      "pmcid": "PMC13674590",
-      "doi": "10.1016/j.addbeh.2026.108868",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -11457,28 +11495,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42628133",
-      "title": "Bidirectional associations between pain and e-cigarette use among young adults using data from PATH Waves 7 and 7.5.",
-      "year": "2026",
-      "journal": "Addictive behaviors",
-      "pmid": "42628133",
-      "pmcid": null,
-      "doi": "10.1016/j.addbeh.2026.108839",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -11763,28 +11779,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42439455",
-      "title": "Awareness and use of e-cigarettes and heated tobacco products, reasons for their use, and associated factors in five countries: a report from Global Adult Tobacco Surveys (2021-2023).",
-      "year": "2026",
-      "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
-      "pmid": "42439455",
-      "pmcid": null,
-      "doi": "10.1093/ntr/ntag159",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:41189413",
       "title": "Australian Women's Perspectives on Preventing Postpartum Relapse or Quitting Smoking or Vaping in the Postpartum Year.",
       "year": "2026",
@@ -11881,24 +11875,26 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "doi:10.21203/rs.3.rs-10296438/v1",
-      "title": "Attentional Bias in Smokers and E-Cigarette Users who Formerly or Currently Smoke Cigarettes: An Eye-Tracking Study",
+      "evidence_id": "pmid:42986416",
+      "title": "Attentional bias in smokers and e-cigarette users who formerly or currently smoke cigarettes: an eye-tracking study.",
       "year": "2026",
-      "journal": null,
-      "pmid": null,
+      "journal": "Psychopharmacology",
+      "pmid": "42986416",
       "pmcid": null,
-      "doi": "10.21203/rs.3.rs-10296438/v1",
+      "doi": "10.1007/s00213-026-07198-2",
       "sources": [
-        "europe_pmc"
+        "europe_pmc",
+        "pubmed_eutils"
       ],
       "publication_types": [
+        "Journal Article",
         "Preprint"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -11933,7 +11929,6 @@
       "pmcid": null,
       "doi": "10.1016/j.addbeh.2026.108797",
       "sources": [
-        "europe_pmc",
         "pubmed_eutils"
       ],
       "publication_types": [
@@ -12152,20 +12147,19 @@
       "year": "2026",
       "journal": "Frontiers in pharmacology",
       "pmid": "42523979",
-      "pmcid": "PMC13408391",
+      "pmcid": null,
       "doi": "10.3389/fphar.2026.1796858",
       "sources": [
-        "europe_pmc"
+        "clinicaltrials_pubmed_recovery"
       ],
       "publication_types": [
-        "research-article",
         "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": true,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -12213,29 +12207,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42441607",
-      "title": "Assessing the abuse liability of U.S. Food and Drug Administration-authorized electronic nicotine delivery systems: Impact of nicotine flux, flavor, and menthol cigarette smoking status.",
-      "year": "2026",
-      "journal": "Experimental and clinical psychopharmacology",
-      "pmid": "42441607",
-      "pmcid": "PMC13367412",
-      "doi": "10.1037/pha0000861",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "unknown",
-      "study_design_basis": [],
-      "integrity_status": "unknown",
-      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -12358,35 +12329,6 @@
       "human_review_status": "not_reviewed"
     },
     {
-      "evidence_id": "pmid:42458622",
-      "title": "An alternative diagnosis for vape induced lung injury: a case report.",
-      "year": "2026",
-      "journal": "Journal of medical case reports",
-      "pmid": "42458622",
-      "pmcid": "PMC13651395",
-      "doi": "10.1186/s13256-026-06345-9",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "Journal Article",
-        "Case Reports",
-        "case-report"
-      ],
-      "topic_tags": [
-        "respiratory"
-      ],
-      "study_design": "case_report",
-      "study_design_basis": [
-        "case report",
-        "case reports"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
       "evidence_id": "pmid:42734481",
       "title": "Alternative tobacco and nicotine products during anticancer therapy: a systematic review of mechanistic toxicology evidence, treatment-resistance signals, and potential hazards.",
       "year": "2026",
@@ -12486,6 +12428,33 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:42974923",
+      "title": "Adolescent's perspective on the initiation of electronic cigarette use: a qualitative study.",
+      "year": "2026",
+      "journal": "International journal of adolescent medicine and health",
+      "pmid": "42974923",
+      "pmcid": null,
+      "doi": "10.1515/ijamh-2025-0176",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "qualitative_study",
+      "study_design_basis": [
+        "qualitative"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42722328",
       "title": "Administrative Billing Codes Cannot Distinguish Vaping from Cigarette Smoking.",
       "year": "2026",
@@ -12565,12 +12534,11 @@
       "pmcid": "PMC13693424",
       "doi": "10.18332/tpc/230938",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "research-article"
+        "research-article",
+        "Journal Article"
       ],
       "topic_tags": [
         "cessation",
@@ -12676,6 +12644,31 @@
         "Journal Article"
       ],
       "topic_tags": [],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:42992609",
+      "title": "Abstinence Expectancies in People who Smoke vs. Vape Nicotine: A Psychometric Comparison of the Smoking Abstinence Questionnaire and a Version Adapted for Vaping.",
+      "year": "2026",
+      "journal": "Nicotine & tobacco research : official journal of the Society for Research on Nicotine and Tobacco",
+      "pmid": "42992609",
+      "pmcid": null,
+      "doi": "10.1093/ntr/ntag242",
+      "sources": [
+        "europe_pmc",
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "cessation"
+      ],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
@@ -12855,31 +12848,6 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": false,
-      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
-      "human_review_status": "not_reviewed"
-    },
-    {
-      "evidence_id": "pmid:42483419",
-      "title": "A cross-sectional study of predictors of perceptions of addiction among college students using Electronic Nicotine Delivery System users.",
-      "year": "2026",
-      "journal": "Tobacco prevention & cessation",
-      "pmid": "42483419",
-      "pmcid": "PMC13386056",
-      "doi": "10.18332/tpc/219091",
-      "sources": [
-        "europe_pmc"
-      ],
-      "publication_types": [
-        "research-article",
-        "Journal Article"
-      ],
-      "topic_tags": [],
-      "study_design": "cross_sectional",
-      "study_design_basis": [
-        "cross-sectional"
-      ],
-      "integrity_status": "unknown",
-      "open_access": true,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -14067,6 +14035,32 @@
       "study_design_basis": [
         "randomized controlled trial"
       ],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:38990977",
+      "title": "Young users of electronic cigarettes exhibit reduced cardiorespiratory fitness.",
+      "year": "2024",
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "pmid": "38990977",
+      "pmcid": null,
+      "doi": "10.1152/japplphysiol.00292.2024",
+      "sources": [
+        "clinicaltrials_pubmed_recovery"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "topic_tags": [
+        "respiratory"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
@@ -15763,6 +15757,29 @@
       "topic_tags": [
         "youth"
       ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:33180648",
+      "title": "Vaping disrupts ventilation-perfusion matching in asymptomatic users.",
+      "year": "2021",
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "pmid": "33180648",
+      "pmcid": null,
+      "doi": "10.1152/japplphysiol.00709.2020",
+      "sources": [
+        "clinicaltrials_pubmed_recovery"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
