@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "Vaping26",
-  "generated_at": "2026-11-09T13:59:52.207103+00:00",
+  "generated_at": "2026-11-10T12:32:10.043918+00:00",
   "publication_level": "aggregate_and_audit_metadata_only",
   "collectors": [
     {
@@ -26,7 +26,7 @@
       "collector": "crossref_retraction_watch",
       "evidence_role": "research_integrity_enrichment",
       "status": "records_downloaded",
-      "records": 68494
+      "records": 68524
     },
     {
       "collector": "clinical_trials",

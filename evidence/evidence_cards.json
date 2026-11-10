@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "card_count": 905,
+  "card_count": 907,
   "study_design_counts": {
     "animal_study": 8,
     "case_control": 1,
     "case_report": 13,
     "case_series": 2,
     "commentary_or_editorial": 28,
-    "cross_sectional": 48,
+    "cross_sectional": 49,
     "in_vitro": 3,
     "modelling_study": 1,
     "non_randomised_intervention": 15,
@@ -17,10 +17,10 @@
     "randomised_controlled_trial": 109,
     "study_protocol": 35,
     "systematic_review_or_meta_analysis": 39,
-    "unknown": 578
+    "unknown": 579
   },
   "integrity_status_counts": {
-    "unknown": 905
+    "unknown": 907
   },
   "records": [
     {
@@ -335,6 +335,7 @@
         "pubmed_eutils"
       ],
       "publication_types": [
+        "Clinical Trial Protocol",
         "English Abstract",
         "Journal Article",
         "Randomized Controlled Trial"
@@ -1395,7 +1396,7 @@
     },
     {
       "evidence_id": "pmid:42996486",
-      "title": "Trends in exclusive and dual cigarette and electronic cigarette use among United States middle and high school students from 2017 to 2024: A cross-sectional analysis. ",
+      "title": "Trends in exclusive and dual cigarette and electronic cigarette use among United States middle and high school students from 2017 to 2024: A cross-sectional analysis.",
       "year": "2026",
       "journal": "Tobacco induced diseases",
       "pmid": "42996486",
@@ -3473,6 +3474,33 @@
       "human_review_status": "not_reviewed"
     },
     {
+      "evidence_id": "pmid:43003667",
+      "title": "Respiratory health outcomes in adolescents who vape: a cross-sectional study with biochemically validated vaping status.",
+      "year": "2026",
+      "journal": "BMJ open respiratory research",
+      "pmid": "43003667",
+      "pmcid": null,
+      "doi": "10.1136/bmjresp-2026-004463",
+      "sources": [
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "respiratory",
+        "youth"
+      ],
+      "study_design": "cross_sectional",
+      "study_design_basis": [
+        "cross-sectional"
+      ],
+      "integrity_status": "unknown",
+      "open_access": null,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
       "evidence_id": "pmid:42765009",
       "title": "Repeated whole-body inhalation of cannabidiol vapor induces progressive pulmonary inflammatory and vascular remodeling without systemic toxicity in Sprague-Dawley rats.",
       "year": "2026",
@@ -4029,7 +4057,8 @@
       "pmcid": null,
       "doi": "10.1007/s10900-026-01632-4",
       "sources": [
-        "europe_pmc"
+        "europe_pmc",
+        "pubmed_eutils"
       ],
       "publication_types": [
         "Journal Article"
@@ -4040,7 +4069,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4321,18 +4350,17 @@
       "pmcid": null,
       "doi": "10.1080/15332640.2026.2754138",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "Review"
+        "Review",
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -4913,7 +4941,8 @@
       "pmcid": null,
       "doi": "10.1007/s10900-026-01625-3",
       "sources": [
-        "europe_pmc"
+        "europe_pmc",
+        "pubmed_eutils"
       ],
       "publication_types": [
         "Journal Article"
@@ -4926,7 +4955,7 @@
         "cross-sectional"
       ],
       "integrity_status": "unknown",
-      "open_access": false,
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -5783,18 +5812,17 @@
       "pmcid": "PMC13723376",
       "doi": "10.52965/001c.172843",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
-        "Journal Article",
-        "research-article"
+        "research-article",
+        "Journal Article"
       ],
       "topic_tags": [],
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -6455,6 +6483,30 @@
       "study_design_basis": [],
       "integrity_status": "unknown",
       "open_access": true,
+      "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "evidence_id": "pmid:43000944",
+      "title": "Longitudinal changes in adolescent e-cigarette use intentions: Risk and protective factors.",
+      "year": "2026",
+      "journal": "Journal of research on adolescence : the official journal of the Society for Research on Adolescence",
+      "pmid": "43000944",
+      "pmcid": null,
+      "doi": "10.1111/jora.70308",
+      "sources": [
+        "pubmed_eutils"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "topic_tags": [
+        "youth"
+      ],
+      "study_design": "unknown",
+      "study_design_basis": [],
+      "integrity_status": "unknown",
+      "open_access": null,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
@@ -7479,7 +7531,7 @@
     },
     {
       "evidence_id": "pmid:42997254",
-      "title": "Health taxes: balancing public health interests and individual freedom during an era of abundant misinformation. ",
+      "title": "Health taxes: balancing public health interests and individual freedom during an era of abundant misinformation.",
       "year": "2026",
       "journal": "Frontiers in public health",
       "pmid": "42997254",
@@ -7489,7 +7541,6 @@
         "europe_pmc"
       ],
       "publication_types": [
-        "IM",
         "review-article",
         "Review",
         "Journal Article"
@@ -10254,8 +10305,7 @@
       "pmcid": null,
       "doi": "10.3724/abbs.2026156",
       "sources": [
-        "europe_pmc",
-        "pubmed_eutils"
+        "europe_pmc"
       ],
       "publication_types": [
         "Journal Article"
@@ -10264,7 +10314,7 @@
       "study_design": "unknown",
       "study_design_basis": [],
       "integrity_status": "unknown",
-      "open_access": null,
+      "open_access": false,
       "synthesis_readiness": "metadata_classified_requires_outcome_extraction",
       "human_review_status": "not_reviewed"
     },
