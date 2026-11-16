@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "trial_count_with_publication_references": 291,
-  "trials_with_matched_evidence_cards": 176,
-  "unique_referenced_pmids": 1235,
-  "unique_pmids_matched_to_evidence_cards": 374,
+  "trial_count_with_publication_references": 292,
+  "trials_with_matched_evidence_cards": 175,
+  "unique_referenced_pmids": 1240,
+  "unique_pmids_matched_to_evidence_cards": 373,
   "unmatched_referenced_pmids": [
     "10093176",
     "10170434",
@@ -450,6 +450,7 @@
     "28215247",
     "28318902",
     "28328552",
+    "28340904",
     "28351749",
     "28363720",
     "28381414",
@@ -725,11 +726,13 @@
     "37245855",
     "37262128",
     "37337860",
+    "37355155",
     "37356710",
     "37366072",
     "37377462",
     "37443061",
     "37585282",
+    "37768593",
     "37790642",
     "37857774",
     "37859683",
@@ -747,6 +750,7 @@
     "38319698",
     "38348917",
     "38354139",
+    "38389804",
     "38393754",
     "38486708",
     "38531658",
@@ -817,6 +821,7 @@
     "42386924",
     "42441935",
     "42447467",
+    "42468964",
     "42504048",
     "42560883",
     "42584385",
@@ -825,6 +830,7 @@
     "42686173",
     "42752171",
     "42822167",
+    "43003216",
     "4459223",
     "5785179",
     "6120322",
@@ -869,14 +875,14 @@
   ],
   "reference_type_summary": {
     "BACKGROUND": {
-      "unique_pmids": 957,
+      "unique_pmids": 961,
       "matched_pmids": 220,
-      "unmatched_pmids": 737
+      "unmatched_pmids": 741
     },
     "DERIVED": {
-      "unique_pmids": 251,
-      "matched_pmids": 144,
-      "unmatched_pmids": 107
+      "unique_pmids": 252,
+      "matched_pmids": 143,
+      "unmatched_pmids": 109
     },
     "RESULT": {
       "unique_pmids": 41,
@@ -5669,7 +5675,7 @@
       "nct_id": "NCT04298658",
       "brief_title": "The Impact of Insomnia on Pain in HIV",
       "overall_status": "COMPLETED",
-      "has_results": false,
+      "has_results": true,
       "publication_references": [
         {
           "pmid": "24795473",
@@ -6609,6 +6615,11 @@
         {
           "pmid": "3485495",
           "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "43003216",
+          "reference_type": "DERIVED",
           "matched_to_evidence_card": false
         },
         {
@@ -9459,12 +9470,7 @@
         {
           "pmid": "42468964",
           "reference_type": "DERIVED",
-          "matched_to_evidence_card": true,
-          "evidence_id": "pmid:42468964",
-          "title": "Evaluating cannabis-nicotine substitution and demand during nicotine cessation treatment in young adults: protocol for a prospective, remote 12-week nicotine cessation trial in the USA.",
-          "year": "2026",
-          "doi": "10.1136/bmjopen-2025-110992",
-          "integrity_status": "unknown"
+          "matched_to_evidence_card": false
         }
       ]
     },
@@ -12143,6 +12149,34 @@
           "year": "2026",
           "doi": "10.1016/j.chest.2025.12.024",
           "integrity_status": "unknown"
+        }
+      ]
+    },
+    {
+      "nct_id": "NCT07933406",
+      "brief_title": "Implementing an Evidence-based Alcohol Use and Sexual Risk Intervention in Young Adult Homeless Service Settings",
+      "overall_status": "NOT_YET_RECRUITING",
+      "has_results": false,
+      "publication_references": [
+        {
+          "pmid": "38389804",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "37355155",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "28340904",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
+        },
+        {
+          "pmid": "37768593",
+          "reference_type": "BACKGROUND",
+          "matched_to_evidence_card": false
         }
       ]
     }
