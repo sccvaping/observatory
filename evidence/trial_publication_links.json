@@ -2,7 +2,7 @@
   "schema_version": 2,
   "trial_count_with_publication_references": 292,
   "trials_with_matched_evidence_cards": 175,
-  "unique_referenced_pmids": 1240,
+  "unique_referenced_pmids": 1239,
   "unique_pmids_matched_to_evidence_cards": 373,
   "unmatched_referenced_pmids": [
     "10093176",
@@ -830,7 +830,6 @@
     "42686173",
     "42752171",
     "42822167",
-    "43003216",
     "4459223",
     "5785179",
     "6120322",
@@ -880,9 +879,9 @@
       "unmatched_pmids": 741
     },
     "DERIVED": {
-      "unique_pmids": 252,
+      "unique_pmids": 251,
       "matched_pmids": 143,
-      "unmatched_pmids": 109
+      "unmatched_pmids": 108
     },
     "RESULT": {
       "unique_pmids": 41,
@@ -6618,11 +6617,6 @@
           "matched_to_evidence_card": false
         },
         {
-          "pmid": "43003216",
-          "reference_type": "DERIVED",
-          "matched_to_evidence_card": false
-        },
-        {
           "pmid": "38393754",
           "reference_type": "DERIVED",
           "matched_to_evidence_card": false
@@ -8089,7 +8083,7 @@
     {
       "nct_id": "NCT05308459",
       "brief_title": "Data Health VET - Data-driven Health Promotion at Vocational Education and Training Schools",
-      "overall_status": "UNKNOWN",
+      "overall_status": "COMPLETED",
       "has_results": false,
       "publication_references": [
         {
